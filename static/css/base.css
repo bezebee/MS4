@@ -12,6 +12,8 @@ body {
     
 }
 
+
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -64,8 +66,13 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: #fefeff;
+	background: #f0f0f3;
 	z-index: -1;
+}
+
+.header-top{
+    background: #f0f0f3;
+    z-index: 99999;
 }
 /* -------------------------------- Media Queries */
 
@@ -88,5 +95,16 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
