@@ -32,6 +32,30 @@
          "name":"things",
          "friendly_name":"Things"
       }
+   },
+   {
+      "pk":5,
+      "model":"products.category",
+      "fields":{
+         "name":"keychains",
+         "friendly_name":"Keychains"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.category",
+      "fields":{
+         "name":"stickers",
+         "friendly_name":"Stickers"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.category",
+      "fields":{
+         "name":"stationery",
+         "friendly_name":"Stationery"
+      }
    }
    
    

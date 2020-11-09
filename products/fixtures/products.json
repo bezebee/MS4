@@ -3,7 +3,7 @@
       "pk":1,
       "model":"products.product",
       "fields":{
-         "sku":"pp1",
+         "sku":"pp01",
          "name":"Not a Hugger",
          "description":"Awesome product that perfectly expresses your personality",
          "price":11,
@@ -17,7 +17,7 @@
       "pk":2,
       "model":"products.product",
       "fields":{
-         "sku":"pp2",
+         "sku":"pp02",
          "name":"Space",
          "description":"Awesome product that perfectly expresses your personality",
          "price":11,
@@ -31,7 +31,7 @@
       "pk":3,
       "model":"products.product",
       "fields":{
-         "sku":"pp3",
+         "sku":"pp03",
          "name":"Feminist Witch",
          "description":"Awesome product that perfectly expresses your personality",
          "price":11,
@@ -45,7 +45,7 @@
       "pk":4,
       "model":"products.product",
       "fields":{
-         "sku":"pp4",
+         "sku":"pp04",
          "name":"Unicorn",
          "description":"Awesome product that perfectly expresses your personality",
          "price":11,
@@ -59,7 +59,7 @@
       "pk":5,
       "model":"products.product",
       "fields":{
-         "sku":"pp5",
+         "sku":"pp05",
          "name":"Campervan",
          "description":"Awesome product that perfectly expresses your personality",
          "price":11,
@@ -73,7 +73,7 @@
       "pk":6,
       "model":"products.product",
       "fields":{
-         "sku":"pp6",
+         "sku":"pp06",
          "name":"Birdie",
          "description":"Awesome product that perfectly expresses your personality",
          "price":11,
@@ -87,7 +87,7 @@
       "pk":7,
       "model":"products.product",
       "fields":{
-         "sku":"pp7",
+         "sku":"pp07",
          "name":"Tardigrade",
          "description":"Awesome product that perfectly expresses your personality",
          "price":11,
@@ -101,7 +101,7 @@
       "pk":8,
       "model":"products.product",
       "fields":{
-         "sku":"pp8",
+         "sku":"pp08",
          "name":"Snipe",
          "description":"Awesome product that perfectly expresses your personality",
          "price":11,
@@ -115,7 +115,7 @@
       "pk":9,
       "model":"products.product",
       "fields":{
-         "sku":"pp9",
+         "sku":"pp09",
          "name":"Camera",
          "description":"Awesome product that perfectly expresses your personality",
          "price":11,
@@ -216,7 +216,7 @@
          "sku":"pp16",
          "name":"Right",
          "description":"Awesome product that perfectly expresses your personality",
-         "price":11,
+         "price":12,
          "category":4,
          "rating":4.6,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1604163815/ms4%20images/right_ipkkjh.png",
@@ -230,7 +230,7 @@
          "sku":"pp17",
          "name":"Bulb",
          "description":"Awesome product that perfectly expresses your personality",
-         "price":11,
+         "price":13,
          "category":4,
          "rating":4.6,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1604163815/ms4%20images/bulb_nqumtu.png",
@@ -244,7 +244,7 @@
          "sku":"pp18",
          "name":"Succulent",
          "description":"Awesome product that perfectly expresses your personality",
-         "price":11,
+         "price":14,
          "category":2,
          "rating":4.6,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1604163815/ms4%20images/succulent_pows5j.png",
@@ -258,7 +258,7 @@
          "sku":"pp19",
          "name":"Panda",
          "description":"Awesome product that perfectly expresses your personality",
-         "price":11,
+         "price":15,
          "category":2,
          "rating":4.6,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1604163815/ms4%20images/panda_rhq0ox.png",
@@ -272,11 +272,53 @@
          "sku":"pp20",
          "name":"Teddy",
          "description":"Awesome product that perfectly expresses your personality",
-         "price":11,
+         "price":16,
          "category":2,
          "rating":4.6,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1604163815/ms4%20images/teddy_mhvsam.png",
          "image":"teddy.png"
+      }
+   },
+   {
+      "pk":21,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp21",
+         "name":"Happy Camper",
+         "description":"Awesome product that perfectly expresses your personality",
+         "price":17,
+         "category":5,
+         "rating":4.6,
+         "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1604943943/ms4%20images/download_5_bocosl.jpg",
+         "image":"download_5_bocosl.jpg"
+      }
+   },
+   {
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp22",
+         "name":"Ruth",
+         "description":"Awesome product that perfectly expresses your personality",
+         "price":18,
+         "category":6,
+         "rating":4.6,
+         "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1604944212/ms4%20images/download_8_ffvjvu.jpg",
+         "image":"download_8_ffvjvu.jpg"
+      }
+   },
+   {
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp23",
+         "name":"Genius Paperclip",
+         "description":"Awesome product that perfectly expresses your personality",
+         "price":20,
+         "category":7,
+         "rating":4.6,
+         "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1604944776/ms4%20images/download_14_uili5w.jpg",
+         "image":"download_14_uili5w.jpg"
       }
    }
   
