@@ -12,8 +12,6 @@ body {
     
 }
 
-
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -73,6 +71,11 @@ body {
 .header-top{
     background: #f0f0f3;
     z-index: 99999;
+}
+
+
+a.category-badge{
+    
 }
 /* -------------------------------- Media Queries */
 
