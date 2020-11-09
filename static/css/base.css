@@ -103,8 +103,28 @@ body {
     .header-container {
         padding-top: 116px;
     }
+/* pushing content down a bit on smaller screens */
+    .content{
+        padding-top:50px;
+    }
 
     body {
         height: calc(100vh - 116px);
+    }
+
+}
+
+/* reducing padding on navbar icons on smaller screens */
+@media (max-width: 500px){
+        a.nav-link{
+        padding:0;
+        font-size: smaller;
+    }
+}
+
+/* hiding searchbar on smaller screens */
+@media (max-width: 990px) {
+   .searchbar  {
+      display: none;
     }
 }
