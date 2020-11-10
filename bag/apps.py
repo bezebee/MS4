@@ -1,5 +1,8 @@
 from django.apps import AppConfig
 
 
-class BagConfig(AppConfig):
-    name = 'bag'
+class CheckoutConfig(AppConfig):
+    name = 'checkout'
+
+    def ready(self):
+        import checkout.signals
