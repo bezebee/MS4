@@ -134,7 +134,8 @@ body {
 
 /* hiding searchbar on smaller screens */
 @media (max-width: 990px) {
-   .searchbar  {
+   .searchbar, .personal {
       display: none;
     }
+
 }
