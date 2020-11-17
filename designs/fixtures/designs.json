@@ -6,6 +6,7 @@
          "sku":"pp01",
          "name":"Elephant",
          "description":"Please make it pretty",
+         "price":35,
          "designcategory":3,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1605642327/ms4%20images/sketch1_q5dgt6.jpg",
          "image":"sketch1.jpg"
@@ -18,6 +19,7 @@
          "sku":"pp02",
          "name":"Little Girl",
          "description":"Please make it pretty",
+         "price":35,
          "designcategory":1,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1605642327/ms4%20images/sketch2_qm2kx2.jpg",
          "image":"sketch2.jpg"
@@ -30,6 +32,7 @@
          "sku":"pp03",
          "name":"Profile",
          "description":"Please make it pretty",
+         "price":35,
          "designcategory":1,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1605642327/ms4%20images/sketch3_hwuhs9.jpg",
          "image":"sketch3.jpg"
@@ -42,6 +45,7 @@
          "sku":"pp04",
          "name":"Octopus",
          "description":"Please make it pretty",
+         "price":35,
          "designcategory":3,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1605642327/ms4%20images/sketch5_lbfqxl.jpg",
          "image":"sketch5.jpg"
