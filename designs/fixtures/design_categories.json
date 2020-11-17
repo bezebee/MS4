@@ -1,0 +1,37 @@
+[
+   
+   {
+      "pk":1,
+      "model":"designs.designcategory",
+      "fields":{
+         "name":"people",
+         "friendly_name":"People"
+      }
+   },
+   {
+      "pk":2,
+      "model":"designs.designcategory",
+      "fields":{
+         "name":"plants",
+         "friendly_name":"Plants"
+      }
+   },
+   
+   {
+      "pk":3,
+      "model":"designs.designcategory",
+      "fields":{
+         "name":"animals",
+         "friendly_name":"Animals"
+      }
+   },
+   {
+      "pk":4,
+      "model":"designs.designcategory",
+      "fields":{
+         "name":"things",
+         "friendly_name":"Things"
+      }
+   }
+  
+]
