@@ -56,7 +56,32 @@
          "name":"stationery",
          "friendly_name":"Stationery"
       }
-   }
+   },
+
+      {
+      "pk":8,
+      "model":"products.category",
+      "fields":{
+         "name":"new_arrivals",
+         "friendly_name":"New Arrivals"
+      }
+   },
+    {
+      "pk":9,
+      "model":"products.category",
+      "fields":{
+         "name":"sale",
+         "friendly_name":"Sale"
+      }
+    },
+    {
+      "pk":10,
+      "model":"products.category",
+      "fields":{
+         "name":"yourdesigns",
+         "friendly_name":"Your Designs"
+      }
+   } 
    
    
    

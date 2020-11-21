@@ -7,7 +7,7 @@
          "name":"Elephant",
          "description":"Please make it pretty",
          "price":35,
-         "designcategory":3,
+         "designcategory":1,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1605642327/ms4%20images/sketch1_q5dgt6.jpg",
          "image":"sketch1.jpg"
       }
@@ -46,7 +46,7 @@
          "name":"Octopus",
          "description":"Please make it pretty",
          "price":35,
-         "designcategory":3,
+         "designcategory":1,
          "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1605642327/ms4%20images/sketch5_lbfqxl.jpg",
          "image":"sketch5.jpg"
       }
