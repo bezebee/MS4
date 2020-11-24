@@ -12,6 +12,17 @@ body {
     
 }
 
+.small:nth-child(1) > a:nth-child(1){
+    background: #f0f0f3;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    border-radius: 8px!important;
+    border: 1px solid rgba(216, 213, 213, 0.144);
+    color:#6c757d;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -20,7 +31,15 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
+#delivery-banner{
+    background: #f0f0f3;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
 
+.delivery{
+    color: rgb(187, 47, 187);
+    
+}
 .logo-font {
     text-transform: lowercase;
     font-weight: 800;
@@ -39,6 +58,13 @@ body {
     box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
 }
 
+input.form-control.border.border-black.rounded-0, 
+#sort-selector{
+    box-shadow: inset -3px -3px 7px #ffffff, 
+    inset 3px 3px 5px rgba(94, 121, 100, 0.288);
+    border: 1px solid #b6bbc528;
+}
+
 button.navbar-toggler,
 button.form-control,
 .btn-black,
@@ -51,15 +77,17 @@ button.form-control,
 }
 
 button.navbar-toggler{
-    border:none;
+    border: 1px solid #b6bbc528;
 }
 
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: rgb(209, 207, 207);
-    color: white !important;
+
+    color: rgb(177, 166, 166) !important;
+    border: 1px solid #b6bbc528;
+
 }
 
 .shop-now-button:hover,
@@ -68,8 +96,9 @@ button.navbar-toggler{
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: rgb(209, 207, 207);
-    color: white !important;
+
+    color: rgb(177, 166, 166) !important;
+    border: 1px solid #b6bbc509!important;
 }
 
 .text-black {
@@ -155,6 +184,7 @@ z-index: 999999999;
     color: #aab7c4;
 }
 
+
 .btn.btn-outline-black.rounded-0,
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
@@ -175,18 +205,26 @@ z-index: 999999999;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
+}
     
-
+.badge{
+    background: #f0f0f3;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    border-radius: 8px!important;
+    border: 1px solid rgba(216, 213, 213, 0.144);
+    padding: .375rem .75rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
 
     /* standard bootstrap btn transitions */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
-    background-color: rgba(34, 34, 34, 0.342);
-    border-color: rgba(153, 152, 152, 0.274);
+	color: rgb(177, 166, 166) !important;
+    border-color: rgba(153, 152, 152, 0.041);
 }
 
 .allauth-form-inner-content a {
@@ -228,9 +266,15 @@ z-index: 999999999;
 /*footer*/
 
 .footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;  
   color: #272525;
   font-weight: 14px;
-  padding: 60px 0 20px;
+  padding: 0;
+  background-color: #f0f0f3;
+  z-index: 9999999999;
 }
 
 .footer p {
@@ -255,6 +299,7 @@ z-index: 999999999;
   justify-content: center;
   text-align: center;
   background: #f0f0f3;
+  margin:0;
 }
 
 
@@ -336,12 +381,7 @@ ul {
   width: 140px;
 }
 
-.footer hr {
-  border: none;
-  background: whitesmoke;
-  height: 1px;
-  margin: 20px 0;
-}
+
 
 .copyright {
   text-align: center;
@@ -351,6 +391,19 @@ ul {
   width: 28px;
   margin-left: 20px;
   display: none;
+}
+
+
+/*--------product detail-------*/
+
+.product-img,
+.product-detail{
+box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288); 
+transition: transform 0.5s;
+}
+
+.product-img:hover{
+      transform: translateY(-12px);
 }
 
 /* -------------------------------- Media Queries */
@@ -375,6 +428,11 @@ ul {
     .header-container {
         padding-top: 164px;
     }
+
+     .container-fluid.content{
+        padding-top:50px;
+        margin-bottom:150px!important;
+    }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -383,9 +441,12 @@ ul {
         padding-top: 116px;
     }
 /* pushing content down a bit on smaller screens */
-    .content{
+    .container-fluid.content{
         padding-top:50px;
+
     }
+
+
 
     body {
         height: calc(100vh - 116px);
