@@ -22,7 +22,8 @@ body {
 }
 
 .logo-font {
-    text-transform: uppercase;
+    text-transform: lowercase;
+    font-weight: 800;
 }
 
 .main-logo-link {
@@ -31,25 +32,33 @@ body {
 
 .shop-now-button {
     background: #f0f0f3;
-    color: rgb(82, 79, 79);
+    color: rgb(109, 106, 106);
     min-width: 260px;
+    border-radius: 8px;
+    transition: background 0.5s;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
 }
 
-.btn-black {
+button.navbar-toggler,
+button.form-control,
+.btn-black,
+.btn-outline-black  {
     background: #f0f0f3;
-    color: rgb(82, 79, 79);
+    color: rgb(109, 106, 106);
+    border-radius: 8px!important;
+    transition: background 0.5s;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
 }
 
-.btn-outline-black {
-    background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+button.navbar-toggler{
+    border:none;
 }
+
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: rgb(209, 207, 207);
     color: white !important;
 }
 
@@ -59,17 +68,15 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #f0f0f3;
-    color: rgb(82, 79, 79);
+    background: rgb(209, 207, 207);
+    color: white !important;
 }
 
 .text-black {
-    color: #000 !important;
+    color: #555 !important;
 }
 
-.border-black {
-    border: 1px solid black !important;
-}
+
 
 .overlay {
 	height: 100%;
@@ -101,6 +108,7 @@ body {
 
 input[name='q']::placeholder {
     color: #aab7c4;
+    
 }
 
 /* bootstrap toasts */
@@ -109,26 +117,22 @@ position:fixed;
 top: 72px;
 right: 15px;
 z-index: 999999999;
+
 }
 
 .custom-toast{
     overflow: visible;
+    
 }
 
 .toast-capper{
     height:2px;
 }
 
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
 
 /* Allauth form formatting */
+
+
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
@@ -136,8 +140,11 @@ z-index: 999999999;
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
-    border-radius: 0;
+  background: #f0f0f3;
+  box-shadow: inset -3px -3px 7px #ffffff, 
+    inset 3px 3px 5px rgba(94, 121, 100, 0.288);
+  border-radius: 8px;
+  border: 1px solid #b6bbc528;
 }
 
 .allauth-form-inner-content label:not([for='id_remember']) {
@@ -148,24 +155,28 @@ z-index: 999999999;
     color: #aab7c4;
 }
 
+.btn.btn-outline-black.rounded-0,
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
 	/* btn */
 	display: inline-block;
     font-weight: 400;
-    color: #fff;
+    color: rgb(82, 80, 80);
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background: #f0f0f3;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    border-radius: 8px!important;
+    border: 1px solid rgba(216, 213, 213, 0.144);
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 0;
+    
+
 
     /* standard bootstrap btn transitions */
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -174,8 +185,8 @@ z-index: 999999999;
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-    background-color: #222;
-    border-color: #222;
+    background-color: rgba(34, 34, 34, 0.342);
+    border-color: rgba(153, 152, 152, 0.274);
 }
 
 .allauth-form-inner-content a {
@@ -200,63 +211,19 @@ z-index: 999999999;
 }
 
 .custom-checkbox .custom-control-label::before {
-    border-radius: 0;
+    border-radius: 8px;
     border-color: #dc3545;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #dc3545;
     border-color: #dc3545;
-    border-radius: 0;
+    border-radius: 8px;
 }
 
 
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
 
-    .header-container {
-        padding-top: 164px;
-    }
-}
 
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-/* pushing content down a bit on smaller screens */
-    .content{
-        padding-top:50px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-
-}
-
-/* reducing padding on navbar icons on smaller screens */
-@media (max-width: 500px){
-        a.nav-link{
-        padding:0;
-        font-size: smaller;
-    }
-}
-
-/* hiding searchbar on smaller screens */
-@media (max-width: 990px) {
-   .searchbar, .personal {
-      display: none;
-    }
-
-}
 
 /*footer*/
 
@@ -384,4 +351,68 @@ ul {
   width: 28px;
   margin-left: 20px;
   display: none;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+/* pushing content down a bit on smaller screens */
+    .content{
+        padding-top:50px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+
+}
+
+/* reducing padding on navbar icons on smaller screens */
+@media (max-width: 500px){
+        a.nav-link{
+        padding:0;
+        font-size: smaller;
+    }
+    .icons li {
+        height: 40px;
+        width: 40px;
+    }
+    .icons li a {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+/* hiding searchbar on smaller screens */
+@media (max-width: 990px) {
+   .searchbar, .personal {
+      display: none;
+    }
+
 }

@@ -34,7 +34,7 @@
         <header class="container-fluid  fixed-top header-top">
             <div id="topnav" class="row pt-lg-2 d-lg-flex">
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left ">
-                    <a href="{% url 'home'}" class="nav-link main-logo-link"> <h2 class="logo-front text-black my-0">nicknacks</h2></a>
+                    <a href="{% url 'home' %}" class="nav-link main-logo-link"> <h2 class="logo-font text-black my-0">nicknacks</h2></a>
                 </div>
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 searchbar">
                     <form method="GET" action="{% url 'products' %}">
@@ -134,5 +134,6 @@
         </script>
         {% endblock %}
     </body>
+
     {% include 'includes/footer.html' %}
 </html>
