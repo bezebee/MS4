@@ -500,9 +500,7 @@ transition: transform 0.5s;
 /* adding some breathing space to products, amending necessary margins to keep navbar intact on small screens*/
 
 @media (min-width: 280px)and (max-width: 320px){
-       body{
-        margin-top:80px!important;
-    }
+ 
     .navbar-expand-lg{
         padding-right:2px;
         padding-left:2px;
@@ -512,16 +510,8 @@ transition: transform 0.5s;
         bottom:-20px;
     }
 }
-@media (min-width: 360px)and (max-width: 540px){
-       body{
-        margin-top:25px!important;
-    }
-}
-@media (min-width: 768px)and (max-width: 769px){
-       body{
-        margin-top:30px!important;
-    }
-}
+
+
 /*perfecting responsiveness on smallest screens*/
 @media (min-width: 280px)and (max-width: 320px){
 .keep-shopping{
