@@ -34,7 +34,7 @@
         <header class="container-fluid  fixed-top header-top">
             <div id="topnav" class="row pt-lg-2 d-lg-flex">
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left ">
-                    <a href="{% url 'home' %}" class="nav-link main-logo-link"> <h2 class="logo-font text-black my-0">nicknacks</h2></a>
+                    <a href="{% url 'home' %}" class="nav-link main-logo-link "> <h2 class="logo-font text-black my-0 ">nicknacks</h2></a>
                 </div>
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 searchbar">
                     <form method="GET" action="{% url 'products' %}">
@@ -101,7 +101,7 @@
         </div>
     <div id="delivery-banner" class="row text-center">
             <div class="col delivery">
-                <h4 class=" my-1">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>                
+                <h4 class="delivery-text my-1">Free delivery on orders over €{{ free_delivery_threshold }}!</h4>                
             </div>            
         </div>
         </header>

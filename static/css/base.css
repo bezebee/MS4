@@ -9,6 +9,7 @@ body {
     color: #555;
     font-family: 'Montserrat';
     background: #f0f0f3;
+    /* margin-top:100px; */
     
 }
 
@@ -448,6 +449,16 @@ transition: transform 0.5s;
     .header-container {
         padding-top: 116px;
     }
+/* spacing nav items a bit*/
+@media (max-width: 991px) {
+    .nav-item {
+        margin-top:5px;
+    }
+/* Delivery banner needs reduction */
+@media (max-width: 429px) {
+    .delivery-text{
+        font-size: 15px;
+    }
 /* pushing content down a bit on smaller screens */
     .container-fluid.content{
         padding-top:50px;
@@ -464,7 +475,7 @@ transition: transform 0.5s;
 
 /* reducing padding on navbar icons on smaller screens */
 @media (max-width: 500px){
-        a.nav-link{
+    a.nav-link{
         padding:0;
         font-size: smaller;
     }
@@ -476,6 +487,7 @@ transition: transform 0.5s;
         font-size: 20px;
         line-height: 40px;
     }
+ 
 }
 
 /* hiding searchbar on smaller screens */
@@ -485,3 +497,46 @@ transition: transform 0.5s;
     }
     
 }
+/* adding some breathing space to products, amending necessary margins to keep navbar intact on small screens*/
+
+@media (min-width: 280px)and (max-width: 320px){
+       body{
+        margin-top:80px!important;
+    }
+    .navbar-expand-lg{
+        padding-right:2px;
+        padding-left:2px;
+
+    }
+    .footer{
+        bottom:-20px;
+    }
+}
+@media (min-width: 360px)and (max-width: 540px){
+       body{
+        margin-top:25px!important;
+    }
+}
+@media (min-width: 768px)and (max-width: 769px){
+       body{
+        margin-top:30px!important;
+    }
+}
+/*perfecting responsiveness on smallest screens*/
+@media (min-width: 280px)and (max-width: 320px){
+.keep-shopping{
+    margin-top:15px!important;
+}
+.decrement-qty,
+.increment-qty{
+    padding-left:6px;
+    padding-right:6px
+}
+.qty-input{
+    height:38px;
+    width:40px;
+}
+}
+
+
+
