@@ -457,7 +457,7 @@ transition: transform 0.5s;
 /* Delivery banner needs reduction */
 @media (max-width: 429px) {
     .delivery-text{
-        font-size: 15px;
+        font-size: 16px;
     }
 /* pushing content down a bit on smaller screens */
     .container-fluid.content{
