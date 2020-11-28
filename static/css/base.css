@@ -113,7 +113,7 @@ color: #555 !important;
 
 
 
-.overlay {
+.overlay { 
 height: 100%;
 width: 100%;
 top: 0;
@@ -311,6 +311,11 @@ background: #f0f0f3;
 margin:0;
 }
 
+.copyright{
+align-items: center;
+justify-content: center;
+text-align: center!important;
+}
 
 
 
@@ -360,6 +365,9 @@ color: #2867b2;
 }
 li:nth-child(5).fill-color a {
 color: #333;
+}
+li:nth-child(6).fill-color a {
+color: rgb(9, 255, 0);
 }
 
 .footer-col-2 {
@@ -483,12 +491,12 @@ a.nav-link{
     font-size: smaller;
 }
 .icons li {
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
 }
 .icons li a {
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 25px;
 }
 
 }

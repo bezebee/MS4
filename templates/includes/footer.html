@@ -5,7 +5,7 @@
             <div class="container">
 
 
-                <div class="footer-col-1 ">
+                <div class="footer-col-1 col-12">
                   
                         <div class="icons first ">
                         <li><a target="_blank" href="https://www.facebook.com/"><span class="fab fa-facebook-f"></span></a></li>
@@ -13,10 +13,15 @@
                         <li><a target="_blank" href="https://www.instagram.com/beeing_about/"><span class="fab fa-instagram"></span></a></li>
                         <li><a target="_blank" href="https://www.linkedin.com/in/kasbogucka/"><span class="fab fa-linkedin-in"></span></a></li>
                         <li><a target="_blank" href="https://github.com/bezebee"><span class="fab fa-github"></span></a></li>
+                        <li><a target="_blank" href="{% url 'contact' %}"><span class="far fa-envelope"></span></a></li>
+                        
                         </div>
                         
                     </div>
             </div>
+
+            {% include 'includes/site-map.html' %}    
+
         </div>
         <!-----js for toggle menu-->
 
