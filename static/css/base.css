@@ -85,7 +85,9 @@ border: 1px solid #b6bbc528;
 .keep-shopping:active,
 .keep-shopping:focus,
 .btn-outline-black:active,
-.btn-outline-black:focus {
+.btn-outline-black:focus,
+.contact-form.btn-outline-black:focus,
+.contact-form.btn-outline-black:active {
 
 color: rgb(177, 166, 166) !important;
 border: 1px solid #b6bbc528;
@@ -196,7 +198,7 @@ color: #aab7c4;
 
 .btn.btn-outline-black.rounded-0,
 .allauth-form-inner-content button,
-.allauth-form-inner-content input[type='submit'] {
+.allauth-form-inner-content input[type='submit']{
 /* btn */
 display: inline-block;
 font-weight: 400;
@@ -422,6 +424,32 @@ transition: transform 0.5s;
 .product-img:hover{
 transform: translateY(-12px);
 }
+
+/*----Contact form---*/
+
+textarea#id_message,
+input#id_first_name,
+input#id_last_name,
+input#id_email{
+background: #f0f0f3;
+box-shadow: inset -3px -3px 7px #ffffff, 
+inset 3px 3px 5px rgba(94, 121, 100, 0.288);
+border-radius: 8px;
+border:none;
+}
+
+input#id_first_name,
+input#id_last_name,
+input#id_email{
+    height: 40px;
+    width: 600px;
+}
+
+textarea#id_message{
+    width: 600px;
+}
+
+
 
 /* -------------------------------- Media Queries */
 

@@ -16,18 +16,20 @@
     <div class="row h-100">
         <div class="col-2">
             
-<div class="container">
-<div class="row">
-<div class="col text-center contact-form">
-<form action="" method="post" >
-{% csrf_token %}
-{{form.as_p}}
-<button type="submit">Send</button>
-</form>
-</div>
-</div>
-</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form class="contact-form" action="" method="post" >
+                            {% csrf_token %}
+                            {{form.as_p}}
+                            <button class="btn btn-outline-black rounded-0" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
     </div>
 </div>
 {% endblock %}
