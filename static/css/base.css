@@ -123,6 +123,9 @@ background: #f0f0f3;
 z-index: -1;
 }
 
+.contact-form{
+    margin-top:100px;
+}
 .header-top{
 background: #f0f0f3;
 z-index: 99999;
