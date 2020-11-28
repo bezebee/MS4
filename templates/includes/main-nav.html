@@ -1,22 +1,22 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All nicknacks
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Everything
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+            <div class="dropdown-menu border-0" aria-labelledby="all-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All nicknacks</a>
+                <a href="{% url 'products' %}" class="dropdown-item">Everything</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="pins-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Pins
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+            <div class="dropdown-menu border-0" aria-labelledby="pins-link">
                 <a href="{% url 'products' %}?category=animals" class="dropdown-item">Animals</a>
                 <a href="{% url 'products' %}?category=things" class="dropdown-item">Things</a>
                 <a href="{% url 'products' %}?category=people" class="dropdown-item">People</a>
@@ -26,10 +26,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="randoms-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                Randoms
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+            <div class="dropdown-menu border-0" aria-labelledby="randoms-link">
                 <a href="{% url 'products' %}?category=keychains" class="dropdown-item">Keychains</a>
                 <a href="{% url 'products' %}?category=stickers" class="dropdown-item">Stickers</a>
                 <a href="{% url 'products' %}?category=stationery" class="dropdown-item">Stationery</a>
