@@ -19,3 +19,18 @@
 #id_default_country option:first-child {
     color: #aab7c4;
 }
+
+div.container.content{
+    height: 100vh;
+    padding-bottom: 150px;
+}
+.footer{
+    margin-top:150px;
+    z-index:999999;
+}
+
+@media (max-width: 991px){
+    .order-history{
+        padding-top:50px;
+    }
+}

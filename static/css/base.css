@@ -10,8 +10,9 @@ color: #555;
 font-family: 'Montserrat';
 background: #f0f0f3;
 /* margin-top:100px; */
-
 }
+
+
 
 .small:nth-child(1) > a:nth-child(1){
 background: #f0f0f3;
@@ -277,7 +278,7 @@ border-radius: 8px;
 /*footer*/
 
 .footer {
-
+position:sticky;
 left: 0;
 bottom: 0;
 width: 100%;  
@@ -285,7 +286,7 @@ color: #272525;
 font-weight: 14px;
 padding: 0;
 background-color: #f0f0f3;
-z-index: 9999999999;
+z-index: 999999999;
 }
 
 .footer p {
@@ -479,13 +480,11 @@ padding-top:50px;
 
 
 /* pad the top a bit when navbar is collapsed on mobile */
-@media  (max-width: 991px) {
+@media  (max-width: 1050px) {
 .header-container {
-padding-top: 116px;
+padding-top: 200px!important;
 }
-.container-fluid.content{
-padding-top:50px!important;
-}
+
 }
 
 
@@ -499,10 +498,6 @@ margin-top:5px;
 @media (max-width: 429px) {
 .delivery-text{
 font-size: 16px;
-}
-/* pushing content down a bit on smaller screens */
-.container-fluid.content{
-padding-top:50px;
 }
 
 body {
@@ -533,7 +528,7 @@ display: none;
 }}
 /* adding some breathing space to products, amending necessary margins to keep navbar intact on small screens*/
 
-@media (min-width: 240px)and (max-width: 358px){
+@media (min-width: 240px)and (max-width: 500px){
 
 .navbar-expand-lg{
 padding-right:9px;
@@ -550,6 +545,18 @@ margin-top: 9px!important;
 .edits{
 margin-left:none!important;
 }
+div.footer-col-1{
+    height: 20px!important;
+}
+}
+
+@media (min-width:501px){
+ div.footer-col-1{
+    height: 70px!important;
+}  
+.copyright{
+    height:130px;
+} 
 }
 
 
@@ -568,6 +575,7 @@ height:38px;
 width:40px;
 }
 }
+
 
 
 
