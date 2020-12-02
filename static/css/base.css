@@ -285,6 +285,7 @@ width: 100%;
 color: #272525;
 font-weight: 14px;
 padding: 0;
+
 background-color: #f0f0f3;
 z-index: 999999999;
 }
@@ -304,6 +305,7 @@ margin-bottom: 20px;
 .footer-col-4 {
 min-width: 250px;
 margin-bottom: 20px;
+padding-bottom: 20px;
 }
 .footer-col-1 {
 display: flex;
@@ -519,13 +521,30 @@ width: 25px;
 font-size: 16px;
 line-height: 25px;
 }
+.icons li a:active{
+font-size: 16px;
+line-height: 25px;
+}
+
 }
 
 /* hiding searchbar on smaller screens */
 @media (max-width: 991px) {
 .searchbar, .personal {
 display: none;
-}}
+}
+}
+
+/* copyright scale-down*/
+@media(min-width: 240px){
+    .copyright-img{
+
+    
+    max-width: 60vh;
+    
+
+}
+}
 /* adding some breathing space to products, amending necessary margins to keep navbar intact on small screens*/
 
 @media (min-width: 240px)and (max-width: 500px){
@@ -536,7 +555,7 @@ padding-left:1px;
 font-size:smaller;
 }
 .logo-font{
-    font-size:20px;
+    font-size:40px;
 }
 .keep-shopping,
 .btn-add{
@@ -546,7 +565,18 @@ margin-top: 9px!important;
 margin-left:none!important;
 }
 div.footer-col-1{
-    height: 20px!important;
+height: 20px!important;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+padding-bottom: 50px!important;
+}
+.copyright-img{
+
+    object-fit: scale-down;
+
 }
 }
 
