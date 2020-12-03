@@ -316,11 +316,7 @@ background: #f0f0f3;
 margin:0;
 }
 
-.copyright{
-align-items: center;
-justify-content: center;
-text-align: center!important;
-}
+
 
 
 
@@ -405,9 +401,7 @@ width: 140px;
 
 
 
-.copyright {
-text-align: center;
-}
+
 
 .menu-icon {
 width: 28px;
@@ -538,11 +532,7 @@ display: none;
 /* copyright scale-down*/
 @media(min-width: 240px){
     .copyright-img{
-
-    
     max-width: 60vh;
-    
-
 }
 }
 /* adding some breathing space to products, amending necessary margins to keep navbar intact on small screens*/
@@ -571,27 +561,17 @@ height: 20px!important;
 .footer-col-2,
 .footer-col-3,
 .footer-col-4 {
-padding-bottom: 50px!important;
-}
-.copyright-img{
-
-    object-fit: scale-down;
-
-}
+padding-bottom: 100px!important;
 }
 
 @media (min-width:501px){
- div.footer-col-1{
-    height: 70px!important;
-}  
-.copyright{
-    height:130px;
-} 
+
+
 }
 
 
 /*perfecting responsiveness on smallest screens*/
-@media (min-width: 240px)and (max-width: 320px){
+@media (min-width: 240px) and (max-width: 320px){
 .keep-shopping{
 margin-top:15px;
 }
