@@ -13,7 +13,7 @@ background: #f0f0f3;
 }
 
 
-
+/* products home button - return from filtering*/
 .small:nth-child(1) > a:nth-child(1){
 background: #f0f0f3;
 box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
