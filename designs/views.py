@@ -38,7 +38,7 @@ def add_design(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Successfully uploaded design')
-            return redirect(reverse('designs'))
+            return redirect(reverse('add_design'))
         else:
             messages.error(request, 'Something went wrong, try again')
     else:
