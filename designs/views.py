@@ -31,11 +31,12 @@ def design_detail(request, design_id):
     return render(request, 'designs/design_detail.html', context)
 
 
+@login_required
 def add_design(request):
     """add designs to users profile"""
 
     if not request.user.is_authenticated:
-        messages.error(request, 'Sorry, only profile owner can do that.')
+        messages.error(request, 'Sorry, only profile owners can do that.')
         return redirect(reverse('home'))
 
     if request.method == "POST":
@@ -57,6 +58,7 @@ def add_design(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_design(request, design_id):
     """Enables user to delete their designs"""
     design = get_object_or_404(Design, pk=design_id)
@@ -81,6 +83,7 @@ def edit_design(request, design_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_design(request, design_id):
     """Delete design from users profile"""
     design = get_object_or_404(Design, pk=design_id)
