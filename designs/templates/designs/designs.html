@@ -31,49 +31,7 @@
                 </div>
 			<div class="row">
 				{% for design in designs %}
-				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-					<div class="card h-100 border-0 bg-transparent">
-						{% if design.image %}
-						<a href="{% url 'design_detail' design.id %}">
-							<img class="card-img-top img-fluid bg-transparent product-img" src="{{ design.image.url }}" alt="{{ design.name }}">
-                        </a>
-							{% else %}
-							<a href="{% url 'design_detail' design.id %}">
-								<img class="card-img-top img-fluid bg-transparent product-img" src="{{ MEDIA_URL }}noimage.png" alt="{{ design.name }}">
-                            </a>
-								{% endif %}
-								<div class="card-body pb-0 bg-transparent">
-									<p class="mb-0">{{ design.name }}</p>
-								</div>
-								<div class="card-footer bg-transparent pt-0 border-0 text-left">
-									<div class="row">
-										<div class="col">
-											<p class="lead mb-0 text-left font-weight-bold">€{{ design.price }}</p>
-
-                                        {% if design.category %}
-                                            <p class="small mt-1 mb-0">
-                                                <a class="text-muted" href="{% url 'designs' %}?category={{ design.category.name }}">
-                                                    <i class="fas fa-tag mr-1"></i>{{ design.category.friendly_name }}
-                                                </a>
-                                            </p>
-                                            {% endif %}
-
-											{% if design.rating %}
-											<small class="text-muted"><i class="fas fa-star mr-1"></i>{{ design.rating }} / 5</small><br>
-											{% else %}
-											<small class="text-muted">No Rating</small><br>
-											{% endif %}
-                                            {% if request.user.is_authenticated %}
-                                                <small class="ml-3 edits">
-                                                    <a href="{% url 'edit_design' design.id %}">Edit</a> | 
-                                                    <a class="text-danger" href="{% url 'delete_design' design.id %}">Delete</a>
-                                                </small>
-                                            {% endif %}
-										</div>
-									</div>
-								</div>
-					</div>
-				</div>
+				
 <!----------------------------ruler------------------------------->
                                         {% if forloop.counter|divisibleby:1 %}
                             <div class="col-12 d-sm-none mb-5">
