@@ -63,10 +63,10 @@
 											{% else %}
 											<small class="text-muted">No Rating</small><br>
 											{% endif %}
-                                            {% if request.user.is_superuser %}
+                                            {% if request.user.is_authenticated %}
                                                 <small class="ml-3 edits">
-                                                    <a href="">Edit</a> | 
-                                                    <a class="text-danger" href="">Delete</a>
+                                                    <a href="{% url 'edit_design' design.id %}">Edit</a> | 
+                                                    <a class="text-danger" href="{% url 'delete_design' design.id %}">Delete</a>
                                                 </small>
                                             {% endif %}
 										</div>

@@ -1,4 +1,4 @@
-from django.shortcuts import render,redirect, reverse, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 
@@ -16,7 +16,7 @@ def all_designs(request):
         'designs': designs,
     }
 
-    return render(request,'designs/designs.html', context)
+    return render(request, 'designs/designs.html', context)
 
 
 def design_detail(request, design_id):
@@ -28,7 +28,8 @@ def design_detail(request, design_id):
         'design': design,
     }
 
-    return render(request,'designs/design_detail.html', context)
+    return render(request, 'designs/design_detail.html', context)
+
 
 @login_required
 def add_design(request):
@@ -36,9 +37,9 @@ def add_design(request):
     if request.method == "POST":
         form = DesignForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
+            design = form.save()
             messages.success(request, 'Successfully uploaded design')
-            return redirect(reverse('add_design'))
+            return redirect(reverse('design_detail', args=[design.id]))
         else:
             messages.error(request, 'Something went wrong, try again')
     else:
@@ -52,6 +53,7 @@ def add_design(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_design(request, design_id):
     """Enables user to delete their designs"""
     design = get_object_or_404(Design, pk=design_id)
@@ -74,3 +76,12 @@ def edit_design(request, design_id):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_design(request, design_id):
+    """Delete design from users profile"""
+    design = get_object_or_404(Design, pk=design_id)
+    design.delete()
+    messages.success(request, 'Design deleted!')
+    return redirect(reverse('designs'))
