@@ -50,3 +50,27 @@ def add_design(request):
     }
 
     return render(request, template, context)
+
+
+def edit_design(request, design_id):
+    """Enables user to delete their designs"""
+    design = get_object_or_404(Design, pk=design_id)
+    if request.method == 'POST':
+        form = DesignForm(request.POST, request.FILES, instance=design)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated design!')
+            return redirect(reverse('design_detail', args=[design.id]))
+        else:
+            messages.error(request, 'Failed to update design. ')
+    else:
+        form = DesignForm(instance=design)
+        messages.info(request, f'You are editing {design.name}')
+
+    template = 'designs/edit_design.html'
+    context = {
+        'form': form,
+        'design': design
+    }
+
+    return render(request, template, context)
