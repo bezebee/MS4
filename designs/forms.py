@@ -13,7 +13,7 @@ class DesignForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         designcategories = DesignCategory.objects.all()
-        friendly_names = [(d.id, d.get_friendly_name()) for d in designcategories]
+        friendly_names = [(c.id, c.get_friendly_name()) for c in designcategories]
 
         self.fields['designcategory'].choices = friendly_names
         for field_name, field in self.fields.items():
