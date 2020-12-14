@@ -2,7 +2,7 @@
    
    {
       "pk":1,
-      "model":"sketches_sheet",
+      "model":"sketches.sheet",
       "fields":{
          "name":"your_sketch",
          "friendly_name":"Your Sketch"
