@@ -1,0 +1,32 @@
+[
+   {
+      "pk":1,
+      "model":"sketches.sketch",
+      "fields":{
+         "sku":"pp01",
+         "name":"ellie",
+         "description":"Awesome product that perfectly expresses your personality",
+         "price":11,
+         "sheet":1,
+         "rating":4.6,
+         "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1605642327/ms4%20images/sketch1_q5dgt6.jpg",
+         "image":"sketch1.png"
+      }
+   },
+   {
+      "pk":2,
+      "model":"sketches.sketch",
+      "fields":{
+         "sku":"pp02",
+         "name":"girly",
+         "description":"Awesome product that perfectly expresses your personality",
+         "price":11,
+         "sheet":1,
+         "rating":4.6,
+         "image_url":"https://res.cloudinary.com/dugnokxox/image/upload/v1605642327/ms4%20images/sketch2_qm2kx2.jpg",
+         "image":"sketch2.png"
+      }
+   }
+ 
+  
+]

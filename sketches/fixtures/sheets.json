@@ -1,0 +1,13 @@
+[
+   
+   {
+      "pk":1,
+      "model":"sketches.sheet",
+      "fields":{
+         "name":"your_sketch",
+         "friendly_name":"Your Sketch"
+      }
+   }
+   
+   
+]
