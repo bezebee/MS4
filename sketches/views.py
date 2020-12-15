@@ -5,10 +5,10 @@ from .models import Sketch
 def sketches(request):
     """Showing all sketches"""
 
-    sketches = Sketches.objects.all()
+    sketches = Sketch.objects.all()
 
     context = {
         'sketches': sketches,
     }
 
-    return render(request, 'sketches/sketch.html', context)
+    return render(request, 'sketches/sketches.html', context)
