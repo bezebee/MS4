@@ -1,5 +1,36 @@
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Send</button>
-</form>
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="logo-font mb-4">Contact Form</h2>
+            <h5 class="text-muted">Contact Us!</h5>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Send</button>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+{% endblock %}
