@@ -3,7 +3,8 @@ height: 100%;
 }
 
 body {
-background: url('/media/narvall.jpg') no-repeat center center fixed;
+background: url('/media/narvall-new.png') no-repeat center center fixed;
+
 background-size: cover;
 height: calc(100vh - 164px);
 color: #555;
