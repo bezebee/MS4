@@ -4,7 +4,7 @@ from .forms import ContactForm
 
 
 def contact(request):
-    template = "contact.html"
+    template = "contact/contact.html"
 
     if request.method == "POST":
         form = ContactForm(request.POST)
