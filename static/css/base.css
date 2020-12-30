@@ -84,7 +84,7 @@ border: none;
 }
 
 button.navbar-toggler{
-border: 1px solid #b6bbc528;
+outline:none;
 }
 
 
@@ -93,7 +93,9 @@ border: 1px solid #b6bbc528;
 .btn-outline-black:active,
 .btn-outline-black:focus,
 .contact-form.btn-outline-black:focus,
-.contact-form.btn-outline-black:active {
+.contact-form.btn-outline-black:active,
+button.navbar-toggler:focus,
+button.navbar-toggler:active {
 
 color: rgb(177, 166, 166) !important;
 border: 1px solid #b6bbc528;
@@ -286,8 +288,6 @@ border-radius: 8px;
 
 
 
-
-
 /*footer*/
 
 .footer {
@@ -435,22 +435,43 @@ transition: transform 0.5s;
 transform: translateY(-12px);
 }
 
-/*----Contact form---*/
-
+/*----Contact form/checkout form/shopping bag form/product management form/my profile form---*/
 textarea#id_message,
 input#id_first_name,
 input#id_last_name,
-input#id_email{
+input#id_email,
+input#id_full_name,
+input#id_phone_number,
+input#id_street_address1,
+input#id_street_address2,
+input#id_town_or_city,
+input#id_county,
+input#id_postcode,
+select#id_country,
+div#card-element,
+input#id_qty_4,
+select#id_category,
+input#id_sku,
+input#id_name,
+textarea#id_description,
+input#id_price,
+input#id_rating,
+input#id_image_url,
+input#id_default_phone_number,
+input#id_default_street_address1,
+input#id_default_street_address2,
+input#id_default_town_or_city,
+input#id_default_county,
+input#id_default_street_address1,
+input#id_default_postcode,
+select#id_default_country
+{
 background: #f0f0f3;
 box-shadow: inset -3px -3px 7px #ffffff, 
 inset 3px 3px 5px rgba(94, 121, 100, 0.288);
 border-radius: 8px;
-border:none;
+border:none!important;
 }
-
-
-
-
 
 
 /* -------------------------------- Media Queries */
@@ -494,7 +515,15 @@ padding-top: 200px!important;
 
 .nav-item {
 margin-top:5px;
-}}
+}
+div.dropdown-menu.border-0.show{
+    font-size: 11px;
+    padding:0;}
+.dropdown-item{
+    padding-left:10px;
+    padding-right:10px;
+}
+}
 /* Delivery banner needs reduction */
 @media (max-width: 429px) {
 .delivery-text{
