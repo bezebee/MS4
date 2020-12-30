@@ -518,11 +518,34 @@ margin-top:5px;
 }
 div.dropdown-menu.border-0.show{
     font-size: 11px;
-    padding:0;}
+    padding:0;
+}
+
 .dropdown-item{
     padding-left:10px;
     padding-right:10px;
 }
+
+}
+
+@media (max-width:489px){
+
+
+tr:nth-child(2){
+    display: none;
+  }
+  tr {
+    display: block;
+    width: 100%;
+  }
+  tr td {
+    display: block;
+    width: 100%;
+  }
+  tr td::before {
+    content: attr(data-header);
+    display: block;
+  }
 }
 /* Delivery banner needs reduction */
 @media (max-width: 429px) {
@@ -532,6 +555,7 @@ font-size: 16px;
 
 body {
 height: calc(100vh - 116px);}
+
 
 }
 
