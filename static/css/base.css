@@ -528,25 +528,7 @@ div.dropdown-menu.border-0.show{
 
 }
 
-@media (max-width:489px){
 
-
-tr:nth-child(2){
-    display: none;
-  }
-  tr {
-    display: block;
-    width: 100%;
-  }
-  tr td {
-    display: block;
-    width: 100%;
-  }
-  tr td::before {
-    content: attr(data-header);
-    display: block;
-  }
-}
 /* Delivery banner needs reduction */
 @media (max-width: 429px) {
 .delivery-text{
@@ -578,6 +560,8 @@ font-size: 16px;
 line-height: 25px;
 }
 
+
+
 }
 
 /* hiding searchbar on smaller screens */
@@ -595,7 +579,7 @@ display: none;
 }
 /* adding some breathing space to products, amending necessary margins to keep navbar intact on small screens*/
 
-@media (min-width: 240px)and (max-width: 500px){
+@media (max-width: 500px){
 
 .navbar-expand-lg{
 padding-right:9px;
@@ -603,7 +587,7 @@ padding-left:1px;
 font-size:smaller;
 }
 .logo-font{
-    font-size:40px;
+    font-size:20px!important;
 }
 .keep-shopping,
 .btn-add{
@@ -621,6 +605,7 @@ height: 20px!important;
 .footer-col-4 {
 padding-bottom: 100px!important;
 }
+}
 
 @media (min-width:501px){
 
@@ -629,7 +614,11 @@ padding-bottom: 100px!important;
 
 
 /*perfecting responsiveness on smallest screens*/
-@media (min-width: 240px) and (max-width: 500px){
+@media (max-width: 500px){
+
+.my-0, th{
+    font-size:10px;
+}
 .keep-shopping{
 margin-top:15px;
 }
