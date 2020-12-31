@@ -614,7 +614,7 @@ padding-bottom: 100px!important;
 
 
 /*perfecting responsiveness on smallest screens*/
-@media (max-width: 500px){
+@media (max-width: 503px){
 
 .my-0, th, td, td.p-3{
     font-size:10px;
@@ -638,4 +638,13 @@ height:38px;
 width:40px;
 padding: 2px 2px 2px 2px!important;
 }
+a.remove-item, a.update-link{
+    font-size: 15px;
+    margin:auto;
+}
+a.btn-lg{
+    font-size: 16px;
+    margin-top: 8px;
+}
+
 }
