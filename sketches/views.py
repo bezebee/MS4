@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Sketch
+from .forms import SketchForm
 
 
 def sketches(request):
@@ -24,3 +25,14 @@ def sketch_detail(request, sketch_id):
     }
 
     return render(request, 'sketches/sketch_detail.html', context)
+
+
+def add_sketch(request):
+    """ Add sketch to users profile"""
+    form = SketchForm()
+    template = 'sketches/add_sketch.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
