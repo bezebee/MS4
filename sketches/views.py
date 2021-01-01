@@ -12,3 +12,5 @@ def sketches(request):
     }
 
     return render(request, 'sketches/sketches.html', context)
+
+
