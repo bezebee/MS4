@@ -253,6 +253,7 @@ padding: .375rem .75rem;
 font-size: 1.3rem;
 line-height: 1.5;
 transition: color .15s ease-in-out,background-color .15s ease-in-out,box-shadow .15s ease-in-out;
+outline: none;
 }
 
 
