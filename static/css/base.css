@@ -101,7 +101,8 @@ outline:none;
 .contact-form.btn-outline-black:focus,
 .contact-form.btn-outline-black:active,
 button.navbar-toggler:focus,
-button.navbar-toggler:active {
+button.navbar-toggler:active,
+ {
 
 color: rgb(177, 166, 166) !important;
 border: 1px solid #b6bbc528;
@@ -119,9 +120,11 @@ inset 3px 3px 5px rgba(94, 121, 100, 0.288)!important;
 
 .badge:active,
 button:nth-child(6):active,
+button:nth-child(9):active,
 
 .badge:focus,
-button:nth-child(6):focus{
+button:nth-child(6):focus
+button:nth-child(9):focus{
 
 color: rgb(177, 166, 166) !important;
 border: 1px solid #b6bbc509!important;
@@ -240,7 +243,8 @@ line-height: 1.5;
 }
 
 .badge,
-button:nth-child(6) {
+button:nth-child(6),
+button:nth-child(9) {
 background: #faf9f7;
 box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
 border-radius: 8px!important;
@@ -446,6 +450,8 @@ textarea#id_message,
 input#id_first_name,
 input#id_last_name,
 input#id_email,
+input#id_sketch_name,
+input#id_sketch_sku,
 input#id_full_name,
 input#id_phone_number,
 input#id_street_address1,
@@ -460,6 +466,7 @@ select#id_category,
 input#id_sku,
 input#id_name,
 textarea#id_description,
+textarea#id_special_requests,
 input#id_price,
 input#id_rating,
 input#id_image_url,

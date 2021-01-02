@@ -18,7 +18,7 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from contact.views import contact
-
+from order.views import order
 
 
 urlpatterns = [
@@ -31,5 +31,6 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('sketches/', include('sketches.urls')),
     path('contact/', contact, name="contact"),
+    path('order/', order, name="order"),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
