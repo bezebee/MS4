@@ -11,6 +11,7 @@ def contact(request):
 
         if form.is_valid():
             form.save()
+            return render(request, "contact/confirmation.html")
 
     else:
         form = ContactForm()

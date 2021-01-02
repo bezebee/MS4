@@ -20,7 +20,7 @@ font-family: 'Montserrat';
 
 /* products home button - return from filtering*/
 .small:nth-child(1) > a:nth-child(1){
-background: #f0f0f3;
+background: #faf9f7;
 box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
 border-radius: 8px!important;
 border: 1px solid rgba(216, 213, 213, 0.144);
@@ -39,7 +39,7 @@ height: 1.5rem;
 width: 1.5rem;
 }
 #delivery-banner{
-background: #f0f0f3;
+background: #faf9f7;
 box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
 }
 
@@ -58,7 +58,7 @@ width: fit-content;
 
 .shop-now-button
 {
-background: #f0f0f3;
+background: #faf9f7;
 color: rgb(109, 106, 106);
 min-width: 260px;
 border-radius: 8px;
@@ -79,7 +79,7 @@ button.form-control,
 .btn-black,
 .btn-outline-black
  {
-background: #f0f0f3;
+background: #faf9f7;
 color: rgb(109, 106, 106);
 border-radius: 8px!important;
 transition: background 0.5s;
@@ -142,7 +142,7 @@ width: 100%;
 top: 0;
 left: 0;
 position: fixed;
-background: #f0f0f3;
+background: #faf9f7;
 z-index: -1;
 }
 
@@ -150,7 +150,7 @@ z-index: -1;
 margin-top:100px;
 }
 .header-top{
-background: #f0f0f3;
+background: #faf9f7;
 z-index: 99999;
 }
 
@@ -201,7 +201,7 @@ color: #6c757d; /* text-secondary */
 }
 
 .allauth-form-inner-content input {
-background: #f0f0f3;
+background: #faf9f7;
 box-shadow: inset -3px -3px 7px #ffffff, 
 inset 3px 3px 5px rgba(94, 121, 100, 0.288);
 border-radius: 8px;
@@ -230,7 +230,7 @@ vertical-align: middle;
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
-background: #f0f0f3;
+background: #faf9f7;
 box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
 border-radius: 8px!important;
 border: 1px solid rgba(216, 213, 213, 0.144);
@@ -241,7 +241,7 @@ line-height: 1.5;
 
 .badge,
 button:nth-child(6) {
-background: #f0f0f3;
+background: #faf9f7;
 box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
 border-radius: 8px!important;
 border: 1px solid rgba(216, 213, 213, 0.144);
@@ -305,7 +305,7 @@ color: #272525;
 font-weight: 14px;
 padding: 0;
 
-background-color: #f0f0f3;
+background-color: #faf9f7;
 z-index: 999999999;
 }
 
@@ -331,7 +331,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 text-align: center;
-background: #f0f0f3;
+background: #faf9f7;
 margin:0;
 }
 
@@ -349,7 +349,7 @@ position: relative;
 list-style: none;
 height: 70px;
 width: 70px;
-background: #f0f0f3;
+background: #faf9f7;
 margin: 0 10px;
 border-radius: 50%;
 cursor: pointer;
@@ -472,7 +472,7 @@ input#id_default_street_address1,
 input#id_default_postcode,
 select#id_default_country
 {
-background: #f0f0f3;
+background: #faf9f7;
 box-shadow: inset -3px -3px 7px #ffffff, 
 inset 3px 3px 5px rgba(94, 121, 100, 0.288);
 border-radius: 8px;
