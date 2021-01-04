@@ -46,3 +46,11 @@ def add_sketch(request):
     }
 
     return render(request, template, context)
+
+
+def delete(request, sketch_id):
+    """Delete sketch of the system"""
+    sketch = get_object_or_404(Sketch, pk=sketch_id)
+    sketch.delete()
+    messages.success(request, 'Design deleted!')
+    return redirect(reverse('sketches'))
