@@ -59,7 +59,7 @@
 							<img class="card-img-top img-fluid bg-transparent product-img" src="{{ sketch.image.url }}" alt="{{ sketch.name }}">
                         </a>
 							{% else %}
-							<a href="">
+							<a href="{% url 'sketch_detail' sketch.id %}">
 								<img class="card-img-top img-fluid bg-transparent product-img" src="{{ MEDIA_URL }}noimage.png" alt="{{ sketch.name }}">
                             </a>
 								{% endif %}
@@ -79,17 +79,7 @@
                                             </p>
                                             {% endif %}
 
-											{% if sketch.rating %}
-											<small class="text-muted"><i class="fas fa-star mr-1"></i>{{ sketch.rating }} / 5</small><br>
-											{% else %}
-											<small class="text-muted">No Rating</small><br>
-											{% endif %}
-                                            {% if request.user.is_superuser %}
-                                                <small class="ml-3 edits">
-                                                    <a href="">Edit</a> | 
-                                                    <a class="text-danger" href="">Delete</a>
-                                                </small>
-                                            {% endif %}
+											
 										</div>
 									</div>
 								</div>

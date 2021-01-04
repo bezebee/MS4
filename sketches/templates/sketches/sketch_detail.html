@@ -45,9 +45,9 @@
                     {% else %}
                         <small class="text-muted">No Rating</small>
                     {% endif %}
-                    {% if request.user.is_superuser %}
+                    {% if request.user.is_authenticated %}
                         <small class="ml-3">
-                            <a href="">Edit</a> | 
+                             
                             <a class="text-danger" href="">Delete</a>
                         </small>
                     {% endif %}

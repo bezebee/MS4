@@ -1,4 +1,5 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.contrib import messages
 from .models import Sketch
 from .forms import SketchForm
 
@@ -29,10 +30,19 @@ def sketch_detail(request, sketch_id):
 
 def add_sketch(request):
     """ Add sketch to users profile"""
-    form = SketchForm()
+    if request.method == 'POST':
+        form = SketchForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully added design')
+            return redirect(reverse('add_sketch'))
+        else:
+            messages.error(request, 'Failed to add your design. Please ensure the form is valid')
+    else:
+        form = SketchForm()
     template = 'sketches/add_sketch.html'
     context = {
-        'form': form,
+            'form': form,
     }
 
     return render(request, template, context)
