@@ -4,12 +4,8 @@
 [![Deployed preview](https://res.cloudinary.com/dugnokxox/image/upload/v1609882886/ms4%20images/nicknacks_eqitvq.png)](https://ms4nicknacks.herokuapp.com/)
 
 
-<hr>
 
 ## Intro
-
-<hr>
-
 
 
 This task is essential for the 'Full Stack Frameworks with Django' module of the Code Institute Full Stack Software Development course. 
