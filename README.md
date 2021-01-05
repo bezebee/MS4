@@ -92,6 +92,10 @@ As a store owner Delete a product Remove product if they are no longer for sale
 The use of neumorphic design througout the page influenced a decision of one main color being used. The color used throughout the page is pale and light, almost white, as this ensures best effectivens of the design style.
 
 
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609881480/ms4%20images/Screenshot_2021-01-05_at_21.17.21_nua89x.png" alt="Database Structure"></p>
+
+Color used for the fonts is off black, which gives the page a soft finish. Black font can be a bit invasive and eye hurting.
+
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/db_nxagk7.png" width="auto" height="70" alt="Database Structure"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/features_bvhyre.png" width="auto" height="70" alt="Features"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/technologies_f4p3w3.png" width="auto" height="70" alt="Technologies"></p>
