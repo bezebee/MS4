@@ -102,4 +102,6 @@ Color used for the fonts is off black, which gives the page a soft finish. Black
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/testing_cr1erj.png" width="auto" height="70" alt="Testing"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/deployment_l5161b.png" width="auto" height="70" alt="Deployment"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238531/credits_nvgiby.png" width="auto" height="70" alt="Credits"></p>
+
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606579543/20786350-B46F-40B3-86F3-4D97002D9FB6_xizcyw.png" width="auto" height="170" alt="Copyright"></p>
  
