@@ -87,6 +87,10 @@ As a store owner Add a product as this would enable me to add new items to my st
 As a store owner Edit/Update product to apply any changes, be it in price, description, image or other product criteria
 As a store owner Delete a product Remove product if they are no longer for sale
 
+## Design
+
+The use of neumorphic design througout the page influenced a decision of one main color being used. The color used throughout the page is pale and light, almost white, as this ensures best effectivens of the design style.
+
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/db_nxagk7.png" width="auto" height="70" alt="Database Structure"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/features_bvhyre.png" width="auto" height="70" alt="Features"></p>
