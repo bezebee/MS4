@@ -94,6 +94,37 @@ Color used for the fonts is off black, which gives the page a soft finish. Black
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/database_structure_k2dbcm.png" width="auto" height="70" alt="Database Structure"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/features_bm7mnk.png" width="auto" height="70" alt="Features"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/technologies_mr6sj9.png" width="auto" height="70" alt="Technologies"></p>
+
+[![Gitpod](https://img.shields.io/badge/IDE-Gitpod-blue)](https://www.gitpod.io/) Used as my primary IDE for coding<br>
+[![Github](https://img.shields.io/badge/Remote%20code-Github-white)](https://github.com/) Remote storing of my code online<br>
+[![Photoshop](https://img.shields.io/badge/Photoediting-Photoshop-lightblue)](https://www.adobe.com/ie/products/photoshop.html) to edit the images, main logo and readme chapter-headings<br>
+[![Goodnotes](https://img.shields.io/badge/Wireframes-Goodnotes-Orange)](https://www.goodnotes.com/) to create Wireframes<br>
+[![Pixlr.com](https://img.shields.io/badge/Image%20editing-Pixlr-blue)](https://pixlr.com/x/) used to edit the product images<br>
+[![Cloudinary](https://img.shields.io/badge/Cloud%20image%20storing-Cloudinary-0F4E97)](https://cloudinary.com/) used to store my images<br>
+
+
+[![HTML](https://img.shields.io/badge/Mark%20up%20text-HTML-yellow)](https://www.w3schools.com/html/html_intro.asp) base for markup text<br>
+[![CSS](https://img.shields.io/badge/Styling-CSS-blueviolet)](https://www.w3schools.com/css/) base for cascading styles<br>
+CHECK!!!
+[![jQuery](https://img.shields.io/badge/JS%20Functionality-jQuery-darkgreen)](https://jquery.com/) used as the JS functionality<br>
+[![Materialize](https://img.shields.io/badge/Design%20Framework-Materialize-%23F5A4A7)](https://materializecss.com/) used as the overall design framework<br>
+[![Flask](https://img.shields.io/badge/Microframework-Flask-%238B0000)](https://shields.io/) used as a microframework<br>
+[![Jinja](https://img.shields.io/badge/Templating%20with%20Flask-Jinja-%23FF6347)](https://shields.io/) for templating with Flask<br>
+[![Werkzeug](https://img.shields.io/badge/Password%20Hashing-Werkzeug-%09%23FFFF00)](https://werkzeug.palletsprojects.com/en/1.0.x/) password hashing, authentication and authorisation<br>
+
+
+[![Shields](https://img.shields.io/badge/Readme%20Badges-Shields-lightgrey)](https://shields.io/) to create a badge<br>
+CHECK!!!
+[![Heroku](https://img.shields.io/badge/App%20Hosting-Heroku-%237B68EE)](https://www.heroku.com/home) used for app hosting<br>
+[![Python](https://img.shields.io/badge/Back%20end%20programming-Python-%09%23008000)](https://shields.io/) to create a badge<br>
+[![MongoDB Atlas](https://img.shields.io/badge/Cloud%20Database-MongoDB%20Atlas-%09%23006400)](https://shields.io/) to create a badge<br>
+CHECK!!!
+[![W3C HTML Validator](https://img.shields.io/badge/HTML%20Validator-W3C%20HTML%20Validator-red)](https://validator.w3.org/) to validate HTML<br>
+[![W3C CSS Validator](https://img.shields.io/badge/CSS%20Validator-W3C%20CSS%20Validator-darkred)](https://jigsaw.w3.org/css-validator/) to validate CSS code<br>
+[![Pep8 Online](https://img.shields.io/badge/Python%20Validator-PEP8%20online-white)](http://pep8online.com/) to validate Python code<br>
+[![JShint](https://img.shields.io/badge/JS%2FjQuery%20Validator-JSHint-%23008e94)](https://jshint.com/) to validate JavaScript/jQuery<br>
+
+
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/testing_ioxxts.png" width="auto" height="70" alt="Testing"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/deployment_o0onfb.png" width="auto" height="70" alt="Deployment"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/credits_n1yyeq.png" width="auto" height="70" alt="Credits"></p>
