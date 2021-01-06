@@ -16,7 +16,7 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 
 
 
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/ux_a9ccsd.png" width="auto" height="70" alt="UX"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/user_experience_cpzk3c.png" width="auto" height="70" alt="UX"></p>
 
 ## Goals
 
@@ -91,12 +91,12 @@ The use of neumorphic design througout the page influenced a decision of one mai
 
 Color used for the fonts is off black, which gives the page a soft finish. Black font can be a bit invasive and eye hurting.
 
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/db_nxagk7.png" width="auto" height="70" alt="Database Structure"></p>
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/features_bvhyre.png" width="auto" height="70" alt="Features"></p>
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/technologies_f4p3w3.png" width="auto" height="70" alt="Technologies"></p>
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/testing_cr1erj.png" width="auto" height="70" alt="Testing"></p>
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238890/ms4%20images/deployment_l5161b.png" width="auto" height="70" alt="Deployment"></p>
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606238531/credits_nvgiby.png" width="auto" height="70" alt="Credits"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/database_structure_k2dbcm.png" width="auto" height="70" alt="Database Structure"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/features_bm7mnk.png" width="auto" height="70" alt="Features"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/technologies_mr6sj9.png" width="auto" height="70" alt="Technologies"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/testing_ioxxts.png" width="auto" height="70" alt="Testing"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/deployment_o0onfb.png" width="auto" height="70" alt="Deployment"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/credits_n1yyeq.png" width="auto" height="70" alt="Credits"></p>
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606579543/20786350-B46F-40B3-86F3-4D97002D9FB6_xizcyw.png" width="auto" height="170" alt="Copyright"></p>
  
