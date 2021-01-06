@@ -114,7 +114,7 @@ Color used for the fonts is off black, which gives the page a soft finish. Black
 
 [![SQlite3](https://img.shields.io/badge/Wireframes-SQlite3-Orange)](https://www.sqlite.org) The database used in development environment<br>
 [![Postgres](https://img.shields.io/badge/Image%20editing-Postgres-blue)](https://www.postgresql.org/) Database used in productions<br>
-[![AWS Services](https://img.shields.io/badge/Cloud%20image%20storing-AWS Services-0F4E97)](https://aws.amazon.com/) s3 is used to store the static and media files of the site<br>
+[![AWS Services](https://img.shields.io/badge/AWS%20-Services-orange)](https://aws.amazon.com/) s3 is used to store the static and media files of the site<br>
 
 --------------
 
