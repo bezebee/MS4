@@ -94,6 +94,28 @@ Color used for the fonts is off black, which gives the page a soft finish. Black
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/database_structure_k2dbcm.png" width="auto" height="70" alt="Database Structure"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/features_bm7mnk.png" width="auto" height="70" alt="Features"></p>
+
+- Products to purchase through an ecommerce system
+- A dedicated Design section for the registered user to upload their own designs
+- A dedicated Order section for the registered user to order their own designs
+- Administration panel so superuser can add, edit and delete products
+- Profile page where registered shopper can see their order history
+- Contact button through which both registered and not registered user may send a message to the superuser.
+
+All pages share navigation bar with logo to the left, which once clicked on, takes you home from any page.
+
+In the middle there are four call to action buttons:
+-  Everything - Option that returns a dropdown list with Items sorted in accordance to price, rating, category and just last option, everything
+- Pins - Option returning the main hero of this website, which are all Pins. Upon clicking on this option the user will be able to choose from Animals, Things, People, Plants and finally, just head to all Pins. 
+- Randoms - By clicking on this the user will be faced with three choices, Keychains, Stickers and Stationery
+- Special Offers - this dropdown list contains two positions which are visible to the non logged users, which are New and Sale items, as well as the position which is only available if user is logged in. This is Your Designs, weher user may be able to check out the Design they uploaded, as well as order them
+To the right corner in the PC view there are two CTA buttons: My Account and a Basket.
+- My Account:
+For the registered and while logged in user that is not a superuser, they will be able to add Custom Drawing/Design, Check out their Profile, which contains history of purchases. By clicking on this option, the logged in user will be able to log out from their session
+For the regisered and logged in as a superuser, the user will be able to do all of the above plus Manage the main products of the ecommerce. This will include adding, editing and deleting the products."
+- Basket 
+This option is available to both logged in and not logged in users. The difference is, only logged in user will be able to successfully check out with the items, as this option is for the time being only made available to the logged in user.
+
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/technologies_mr6sj9.png" width="auto" height="70" alt="Technologies"></p>
 
 [![Gitpod](https://img.shields.io/badge/IDE-Gitpod-blue)](https://www.gitpod.io/) Used as my primary IDE for coding<br>
