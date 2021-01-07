@@ -175,7 +175,7 @@ This option is available to both logged in and not logged in users. The differen
 | | Home page | |
 | Shop Now button  |  Clicked on |  Brings me to a page with all products |
 | | All Products page | |
-| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Sort Products Dropdown  |  Sort testing each Condition |  <ul><li>Price (low to high) - sorts according to price, from cheapest to dearest</li><li> Price (high to low) - sorts according to price, from dearest to cheapest</li><li>Rating (low to high) - sorts rating from lowest</li><li>Rating (high to low) - sorts rating from highest.</li><li>Name (A-Z) - sorts Products alphabetically</li><li>Name (Z-A) - sorts products reverse-alphabetically</li><li>Category (A-Z) - sorts Categories of products alphabetically</li><li>Category (Z-A) - sorts Products by Categories sorted reverse-alphabetically</li></ul> |
 | Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
 | Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
 | Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
