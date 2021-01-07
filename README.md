@@ -152,16 +152,16 @@ This option is available to both logged in and not logged in users. The differen
 |   |  Click on By Rating |  Items appear sorted descending, from high rating to low |
 |   |  Click on By Category |  Categories of Items become sorted alphabetically |
 |   |  Click on Everything |  All items are displayed, sorted by SKU |
-| Pins  |  Click on Animals |   |
-|   |  Click on Things |   |
-|   |  Click on People |   |
-|   |  Click on Plants |   |
-|   |  Click on All Pins |   |
-| Randoms  |  Click on Keychains |   |
-|   |  Click on Stickers |   |
-|   |  Click on Stationery |   |
-| Special Offers  |  Click on New Arrivals |  The address on hover is showing as home page |
-|   |  Click on Sale |  The address on hover is showing as home page |
+| Pins  |  Click on Animals |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
+|   |  Click on Things |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
+|   |  Click on People |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
+|   |  Click on Plants |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
+|   |  Click on All Pins |  All Pins are displaying now |
+| Randoms  |  Click on Keychains |  Keychains are displayed, the badge on top of the page states same. |
+|   |  Click on Stickers |  Stickers are displayed, along with badge |
+|   |  Click on Stationery |  Stationery and badge are here |
+| Special Offers  |  Click on New Arrivals |  New Arrivals and badge are here |
+|   |  Click on Sale |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
 | My Account  |  Click on Register |  <ul><li>Sign up form appears</li><li>Form sends</li><li>Confirmation email appears in the email box</li><li>Clicked on the confirmation email - Confirm email address page appears</li><li>Logged in with newly created account (Button does not indent) - the success message appears and I am now logged in</li><li>Upon clicking Confirm (The button does not indent), a success message appears and a signing page is returned</li><li>(Sign up Buttons do not indent when clicked on)</li></ul> |
 |   |  Click on Login |  The address on hover is showing as home page |
 | Basket  |  Bag empty |  Click on Keep Shopping button, brings me back to all Products page |
