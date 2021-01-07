@@ -152,7 +152,30 @@ This option is available to both logged in and not logged in users. The differen
 |---|---|---|
 | Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
 | Search bar  |  Entered "Space", |<ul><li> one product is listed under this name - correct</li><li>The summary shows message "1 Products found for 'space'" (See if this can be amended to dependable if it's one or many, with or without s"</li>|
-|   |   |   |
+|  All button, bringing back to all products |  Click on All button |  Linked correctly (Does not indent (neumorphically)upon clicking) |
+| Everything  |  Click on By Price |  Items appear sorted ascending, from low price to high |
+|   |  Click on By Rating |  Items appear sorted descending, from high rating to low |
+|   |  Click on By Category |  Categories of Items become sorted alphabetically |
+|   |  Click on Everything |  All items are displayed, sorted by SKU |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+
+ 
+ 
 
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/deployment_o0onfb.png" width="auto" height="70" alt="Deployment"></p>
@@ -160,3 +183,4 @@ This option is available to both logged in and not logged in users. The differen
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606579543/20786350-B46F-40B3-86F3-4D97002D9FB6_xizcyw.png" width="auto" height="170" alt="Copyright"></p>
  
+
