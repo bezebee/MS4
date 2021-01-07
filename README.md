@@ -118,28 +118,24 @@ This option is available to both logged in and not logged in users. The differen
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/technologies_mr6sj9.png" width="auto" height="70" alt="Technologies"></p>
 
-[![Gitpod](https://img.shields.io/badge/IDE-Gitpod-blue)](https://www.gitpod.io/) Used as my primary IDE for coding<br>
-[![Github](https://img.shields.io/badge/Remote%20code-Github-white)](https://github.com/) Remote storing of my code online<br>
-[![Photoshop](https://img.shields.io/badge/Photoediting-Photoshop-lightblue)](https://www.adobe.com/ie/products/photoshop.html) to edit the images, main logo and readme chapter-headings<br>
-[![Goodnotes](https://img.shields.io/badge/Wireframes-Goodnotes-Orange)](https://www.goodnotes.com/) to create Wireframes<br>
-[![Pixlr.com](https://img.shields.io/badge/Image%20editing-Pixlr-blue)](https://pixlr.com/x/) used to edit the product images<br>
-[![Cloudinary](https://img.shields.io/badge/Cloud%20image%20storing-Cloudinary-0F4E97)](https://cloudinary.com/) used to store my images<br>
+[![Gitpod](https://img.shields.io/badge/IDE-Gitpod-blue)](https://www.gitpod.io/)
+[![Github](https://img.shields.io/badge/Remote%20code-Github-white)](https://github.com/)
+[![Photoshop](https://img.shields.io/badge/Photoediting-Photoshop-lightblue)](https://www.adobe.com/ie/products/photoshop.html)
+[![Goodnotes](https://img.shields.io/badge/Wireframes-Goodnotes-Orange)](https://www.goodnotes.com/)
+[![Pixlr.com](https://img.shields.io/badge/Image%20editing-Pixlr-blue)](https://pixlr.com/x/)
+[![Cloudinary](https://img.shields.io/badge/Cloud%20image%20storing-Cloudinary-0F4E97)](https://cloudinary.com/)
 
-[![HTML](https://img.shields.io/badge/Mark%20up%20text-HTML-yellow)](https://www.w3schools.com/html/html_intro.asp) base for markup text<br>
-[![CSS](https://img.shields.io/badge/Styling-CSS-blueviolet)](https://www.w3schools.com/css/) base for cascading styles<br>
-[![JavaScript](https://img.shields.io/badge/JS%20Functionality-JS-darkgreen)](https://jquery.com/) used as the JS functionality<br>
-[![Bootstrap](https://img.shields.io/badge/Design%20Framework-Bootstrap-%23F5A4A7)](https://getbootstrap.com/) used as the overall design framework<br>
-[![Django](https://img.shields.io/badge/Microframework-Django-%238B0000)](https://www.djangoproject.com/) used as a microframework<br>
-[![Shields](https://img.shields.io/badge/Readme%20Badges-Shields-lightgrey)](https://shields.io/) to create a badge<br>
-[![Heroku](https://img.shields.io/badge/App%20Hosting-Heroku-%237B68EE)](https://www.heroku.com/home) used for app hosting<br>
-[![Python](https://img.shields.io/badge/Back%20end%20programming-Python-%09%23008000)](https://www.python.org/)to handle backend functions<br>
-
-[![SQlite3](https://img.shields.io/badge/Wireframes-SQlite3-Orange)](https://www.sqlite.org) The database used in development environment<br>
-[![Postgres](https://img.shields.io/badge/Image%20editing-Postgres-blue)](https://www.postgresql.org/) Database used in productions<br>
-[![AWS Services](https://img.shields.io/badge/AWS%20-Services-orange)](https://aws.amazon.com/) s3 is used to store the static and media files of the site<br>
-
---------------
-
+[![HTML](https://img.shields.io/badge/Mark%20up%20text-HTML-yellow)](https://www.w3schools.com/html/html_intro.asp)
+[![CSS](https://img.shields.io/badge/Styling-CSS-blueviolet)](https://www.w3schools.com/css/)
+[![JavaScript](https://img.shields.io/badge/JS%20Functionality-JS-darkgreen)](https://jquery.com/)
+[![Bootstrap](https://img.shields.io/badge/Design%20Framework-Bootstrap-%23F5A4A7)](https://getbootstrap.com/)
+[![Django](https://img.shields.io/badge/Microframework-Django-%238B0000)](https://www.djangoproject.com/)
+[![Shields](https://img.shields.io/badge/Readme%20Badges-Shields-lightgrey)](https://shields.io/)
+[![Heroku](https://img.shields.io/badge/App%20Hosting-Heroku-%237B68EE)](https://www.heroku.com/home)
+[![Python](https://img.shields.io/badge/Back%20end%20programming-Python-%09%23008000)](https://www.python.org/)
+[![SQlite3](https://img.shields.io/badge/Wireframes-SQlite3-Orange)](https://www.sqlite.org)
+[![Postgres](https://img.shields.io/badge/Image%20editing-Postgres-blue)](https://www.postgresql.org/)
+[![AWS Services](https://img.shields.io/badge/AWS%20-Services-orange)](https://aws.amazon.com/)
 [![W3C HTML Validator](https://img.shields.io/badge/HTML%20Validator-W3C%20HTML%20Validator-red)](https://validator.w3.org/) to validate HTML<br>
 [![W3C CSS Validator](https://img.shields.io/badge/CSS%20Validator-W3C%20CSS%20Validator-darkred)](https://jigsaw.w3.org/css-validator/) to validate CSS code<br>
 [![Pep8 Online](https://img.shields.io/badge/Python%20Validator-PEP8%20online-white)](http://pep8online.com/) to validate Python code<br>
