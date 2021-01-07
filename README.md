@@ -168,9 +168,9 @@ This option is available to both logged in and not logged in users. The differen
 | Special Offers  |  Click on New Arrivals |  The address on hover is showing as home page |
 |   |  Click on Sale |  The address on hover is showing as home page |
 | My Account  |  Click on Register |  <ul><li>Sign up form appears</li><li>Form sends</li><li>Confirmation email appears in the email box</li><li>Clicked on the confirmation email - Confirm email address page appears</li><li>Logged in with newly created account (Button does not indent) - the success message appears and I am now logged in</li><li>Upon clicking Confirm (The button does not indent), a success message appears and a signing page is returned</li><li>(Sign up Buttons do not indent when clicked on)</li></ul> |
-| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
-| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
-| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+|   |  Click on Login |  The address on hover is showing as home page |
+| Basket  |  Bag empty |  Click on Keep Shopping button, brings me back to all Products page |
+|   |  Bag with content | <ul><li>Increase and Decrease quantity buttons work</li><li>Price updates when Update option is clicked</li><li>Price in Grand total Updates over the 10% Delivery</li><li>Free Delivery treshold is calculated correctly and called back to user |
 | Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
 | Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
 
