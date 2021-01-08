@@ -180,7 +180,7 @@ This option is available to both logged in and not logged in users. The differen
 |---|---|---|
 | Logo (upper left corner)  |  Hover over |  The address on hover is showing as home page |
 | Search bar  |  Entered "Space", |<ul><li> one product is listed under this name - correct</li><li>The summary shows message "1 Products found for 'space'" (See if this can be amended to dependable if it's one or many, with or without s"</li>|
-|  All button, bringing back to all products |  Click on All button |  Linked correctly (Does not indent (neumorphically)upon clicking) |
+|  All button, bringing back to all products |  Click on All button |  Linked correctly  |
 | Everything  |  Click on By Price |  Items appear sorted ascending, from low price to high |
 |   |  Click on By Rating |  Items appear sorted descending, from high rating to low |
 |   |  Click on By Category |  Categories of Items become sorted alphabetically |
@@ -195,11 +195,11 @@ This option is available to both logged in and not logged in users. The differen
 |   |  Click on Stationery |  Stationery and badge are here |
 | Special Offers  |  Click on New Arrivals |  New Arrivals and badge are here |
 |   |  Click on Sale |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
-| My Account  |  Click on Register |  <ul><li>Sign up form appears</li><li>Form sends</li><li>Confirmation email appears in the email box</li><li>Clicked on the confirmation email - Confirm email address page appears</li><li>Logged in with newly created account (Button does not indent) - the success message appears and I am now logged in</li><li>Upon clicking Confirm (The button does not indent), a success message appears and a signing page is returned</li><li>(Sign up Buttons do not indent when clicked on)</li></ul> |
+| My Account  |  Click on Register |  <ul><li>Sign up form appears</li><li>Form sends</li><li>Confirmation email appears in the email box</li><li>Clicked on the confirmation email - Confirm email address page appears</li><li>Logged in with newly created account - the success message appears and I am now logged in</li><li>Upon clicking Confirm, a success message appears and a signing page is returned</li><li></li></ul> |
 |   |  Click on Login |  The address on hover is showing as home page |
 | Basket  |  Bag empty |  Click on Keep Shopping button, brings me back to all Products page |
 |   |  Bag with content | <ul><li>Increase and Decrease quantity buttons work</li><li>Price updates when Update option is clicked</li><li>Price in Grand total Updates over the 10% Delivery</li><li>Free Delivery treshold is calculated correctly and called back to user |
-| Footer  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Footer  |    |   |
 | | Home page | |
 | Shop Now button  |  Clicked on |  Brings me to a page with all products |
 | | All Products page | |
@@ -235,7 +235,7 @@ This option is available to both logged in and not logged in users. The differen
 | Login  |   |   |
 | Logout  |   |   |
 | Change Password  |   |   |
-| View profile  |  Click on My Account and My Profile |  DOLLAR SIGNS ON ORDER TOTALS! |
+| View profile  |  Click on My Account and My Profile |  |
 | Update profile  |  Click on My Account and My Profile |   |
 | Logo (upper left corner)  |   |   |
 
