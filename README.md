@@ -54,42 +54,45 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 - As a shopper I want to be able to Easily view the total of my purchases at any time to avoid spending too much
 
 #### Registration and User Accounts  
-- As a registered shopper I want to be able to Easily register for an account so I can have a personal account and be able to view my profile
-- As a registered shopper I want to be able to Easily login or logout so I can access my personal account information
-- As a registered shopper I want to be able to Easily recover my password in case I forget it so I can recover access to my account
-- As a registered shopper I want to be able to Receive an email confirmation after registering so I can verify that my account registration was successful
-- As a registered shopper I want to be able to Have a personalised user profile so I can view my personal order history and order confirmations and save my payment information
-- As a registered shopper I want to be able to Add my own personalised design so I can view all my designs and choose which one I would like to order
-- As a registered shopper I want to be able to Place an order for my personalised design so I can have my design made into pin, keyring or a piece of stationery
-- As a registered shopper I want to be able to Easily contact the store owner with any queries I might have so I can ask any questions I may have
+- As a registered shopper I want to be able to easily register for an account so I can have a personal account and be able to view my profile
+- As a registered shopper I want to be able to easily login or logout so I can access my personal account information
+- As a registered shopper I want to be able to easily recover my password in case I forget it so I can recover access to my account
+- As a registered shopper I want to be able to receive an email confirmation after registering so I can verify that my account registration was successful
+- As a registered shopper I want to be able to have a personalised user profile so I can view my personal order history and order confirmations and save my payment information
+- As a registered shopper I want to be able to add my own personalised design so I can view all my designs and choose which one I would like to order
+- As a registered shopper I want to be able to place an order for my personalised design so I can have my design made into pin, keyring or a piece of stationery
+- As a registered shopper I want to be able to easily contact the store owner with any queries I might have so I can ask any questions I may have
 
 #### Sorting and searching  
-- As a shopper I want to be able to Sort the list of available products so I can easily identify the best rated, best priced and categorically sorted products
-- As a shopper I want to be able to Sort a specific category of products so I can find best priced or best rated product in a specific category or sort the product in that category by name
-- As a shopper I want to be able to Sort multiple categories of products simultaneously so I can find the best priced or best rated products across board categories, such as pins or keyrings
-- As a shopper I want to be able to Search for a product by name or description so I can find a specific product I'd like to purchase
-- As a shopper I want to be able to Easily see what I have searched for and the number of results so I can quickly decide whether the product I want is available
+- As a shopper I want to be able to sort the list of available products so I can easily identify the best rated, best priced and categorically sorted products
+- As a shopper I want to be able to sort a specific category of products so I can find best priced or best rated product in a specific category or sort the product in that category by name
+- As a shopper I want to be able to sort multiple categories of products simultaneously so I can find the best priced or best rated products across board categories, such as pins or keyrings
+- As a shopper I want to be able to search for a product by name or description so I can find a specific product I'd like to purchase
+- As a shopper I want to be able to easily see what I have searched for and the number of results so I can quickly decide whether the product I want is available
 Purchasing and Checkout  
-- As a registered shopper I want to be able to Easily select quantity of a product when purchasing it so I can ensure I am selecting correct product and a correct quantity
-- As a registered shopper I want to be able to View items in my bag to be purchased so I can identify the total cost of my purchase and all items I will receive
-- As a registered shopper I want to be able to Adjust the quantity of individual items in my bag so I can easily make changes to my purchase before checkout
-- As a registered shopper I want to be able to Easily enter my payment information  so I can check out quickly and with no hassle
-- As a registered shopper I want to be able to Feel that my personal and payment information is safe and secure so I can confidently provide the needed informatoin to make a purchase
-- As a registered shopper I want to be able to View an order confirmation after checkout so I can verify that I have not made any mistakes
-- As a registered shopper I want to be able to Receive an email confirmation after checking out so I can keep the records of my purchases
+- As a registered shopper I want to be able to easily select quantity of a product when purchasing it so I can ensure I am selecting correct product and a correct quantity
+- As a registered shopper I want to be able to view items in my bag to be purchased so I can identify the total cost of my purchase and all items I will receive
+- As a registered shopper I want to be able to adjust the quantity of individual items in my bag so I can easily make changes to my purchase before checkout
+- As a registered shopper I want to be able to easily enter my payment information  so I can check out quickly and with no hassle
+- As a registered shopper I want to be able to feel that my personal and payment information is safe and secure so I can confidently provide the needed informatoin to make a purchase
+- As a registered shopper I want to be able to view an order confirmation after checkout so I can verify that I have not made any mistakes
+- As a registered shopper I want to be able to receive an email confirmation after checking out so I can keep the records of my purchases
 
 #### Admin and Store Management  
-- As a store owner Add a product as this would enable me to add new items to my store
-- As a store owner Edit/Update product to apply any changes, be it in price, description, image or other product criteria
-- As a store owner Delete a product Remove product if they are no longer for sale
+- As a store owner I want to be able to add a product as this would enable me to add new items to my store
+- As a store owner I want to be able to Edit/Update product to apply any changes, be it in price, description, image or other product criteria
+- As a store owner I want to be able to delete a product remove product if they are no longer for sale
 
 ## Design
 
 #### Font
 
+Throughout the project there is only one font used, which is Montserrat at various weighs. The aim is to make this website as minimalist and clean as possible, to make the neumorphic effect stand out more.
+
 #### Color Scheme
 
 The use of neumorphic design througout the page influenced a decision of one main color being used. The color used throughout the page is pale and light, almost white, as this ensures best effectivens of the design style.
+
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609881480/ms4%20images/Screenshot_2021-01-05_at_21.17.21_nua89x.png" alt="Database Structure"></p>
 
 #### Wireframes
@@ -162,8 +165,11 @@ This option is available to both logged in and not logged in users. The differen
 [![W3C CSS Validator](https://img.shields.io/badge/CSS%20Validator-W3C%20CSS%20Validator-darkred)](https://jigsaw.w3.org/css-validator/)
 [![Pep8 Online](https://img.shields.io/badge/Python%20Validator-PEP8%20online-white)](http://pep8online.com/)
 [![JShint](https://img.shields.io/badge/JS%2FjQuery%20Validator-JSHint-%23008e94)](https://jshint.com/)
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/testing_ioxxts.png" width="auto" height="70" alt="Testing"></p>
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610112449/ms4%20images/PFCMNF1_0.5x_ns8gtj.png" alt="All screens"></p>
