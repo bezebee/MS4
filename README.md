@@ -166,6 +166,8 @@ This option is available to both logged in and not logged in users. The differen
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/testing_ioxxts.png" width="auto" height="70" alt="Testing"></p>
 
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610112449/ms4%20images/PFCMNF1_0.5x_ns8gtj.png" alt="All screens"></p>
+
 #### Product Features
 
 |  Feature |  Action | Effect |
@@ -201,7 +203,9 @@ This option is available to both logged in and not logged in users. The differen
 | Adding product to the basket  |  Click on the Product and click Add to Basket |  <ul><li>Basket total updates to the correct amount, success toast confirms the product was added to the bag </li></ul> |
 | Navigating from Product Detail back to All Products  |  Click on the Keep Shopping button |  A page with all product is rendered |
 | Checking out  |  Click on the Shopping Bag, click on Secure Checkout |  <ul><li>Non registered user - a sign in page renders with option to register, if user is not yet registered</li><li>Registered User - A Checkout page is rendered with most information saved as per users account. User can also see the Order Summary to the right of the form</li><li>Entered card details and name, after which clicked on the Complete Transaction button</li><li>A thank you page is rendered, with a summary of order as well as the success toast renders in upper right corner</li><li>Confirmation email arrives to the email box</li></ul> |
-| Testing commit editing  |   |   |
+ 
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610112217/ms4%20images/Mobile_mock_up_puqyce.png" alt="Mobile  mockup"></p>
+
 |   |   |   |
 |   |   |   |
 |   |   |   |
@@ -220,12 +224,6 @@ This option is available to both logged in and not logged in users. The differen
 
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/deployment_o0onfb.png" width="auto" height="70" alt="Deployment"></p>
-
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610112449/ms4%20images/PFCMNF1_0.5x_ns8gtj.png" alt="All screens"></p>
-
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610112217/ms4%20images/Mobile_mock_up_puqyce.png" alt="Mobile  mockup"></p>
-
-
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/credits_n1yyeq.png" width="auto" height="70" alt="Credits"></p>
 
