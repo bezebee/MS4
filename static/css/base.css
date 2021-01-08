@@ -10,12 +10,11 @@ height: calc(100vh - 164px);
 color: #555;
 font-family: 'Montserrat';
 
-
 }
 /*removing outlines*/
 #sort-selector
 {
-    outline:none;
+outline:none;
 }
 
 /* products home button - return from filtering*/
@@ -38,6 +37,7 @@ justify-content: center;
 height: 1.5rem;
 width: 1.5rem;
 }
+
 #delivery-banner{
 background: #faf9f7;
 box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
@@ -93,6 +93,7 @@ button.navbar-toggler:focus{
 outline:none;
 }
 
+/* Indenting buttons on click*/
 
 .keep-shopping:active,
 .keep-shopping:focus,
@@ -145,8 +146,6 @@ outline: none;
 .text-black {
 color: #555 !important;
 }
-
-
 
 .overlay { 
 height: 100%;
@@ -306,8 +305,6 @@ border-color: #dc3545;
 border-radius: 8px;
 }
 
-
-
 /*footer*/
 
 .footer {
@@ -348,10 +345,6 @@ text-align: center;
 background: #faf9f7;
 margin:0;
 }
-
-
-
-
 
 .icons {
 display: flex;
@@ -432,10 +425,6 @@ margin-top: 20px;
 width: 140px;
 }
 
-
-
-
-
 .menu-icon {
 width: 28px;
 margin-left: 20px;
@@ -455,7 +444,7 @@ transition: transform 0.5s;
 transform: translateY(-12px);
 }
 
-/*----Contact form/checkout form/shopping bag form/product management form/my profile form---*/
+/*----Neumorphic effect: Contact form/checkout form/shopping bag form/product management form/my profile form---*/
 textarea#id_message,
 input#id_first_name,
 input#id_last_name,
