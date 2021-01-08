@@ -566,6 +566,11 @@ height: calc(100vh - 116px);}
 
 /* reducing padding on navbar icons on smaller screens */
 @media (max-width: 500px){
+
+.icons{
+padding-top:100px;
+}
+
 a.nav-link{
 padding:0;
 font-size: smaller;
