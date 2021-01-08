@@ -212,9 +212,6 @@ This option is available to both logged in and not logged in users. The differen
  
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610112217/ms4%20images/Mobile_mock_up_puqyce.png" alt="Mobile  mockup"></p>
 
-|   |   |   |
-|   |   |   |
-|   |   |   |
  
 #### Users Features
 
@@ -224,7 +221,7 @@ This option is available to both logged in and not logged in users. The differen
 | Login  |   |   |
 | Logout  |   |   |
 | Change Password  |   |   |
-| View profile  |  Click on My Account and My Profile |  DOLLAR SIGNS ON ORDER TOTALS! |
+| View profile  |  Click on My Account and My Profile |  |
 | Update profile  |  Click on My Account and My Profile |   |
 | Logo (upper left corner)  |   |   |
 
