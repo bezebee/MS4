@@ -85,12 +85,21 @@ Purchasing and Checkout
 
 ## Design
 
+### Font
+
+### Color Scheme
+
 The use of neumorphic design througout the page influenced a decision of one main color being used. The color used throughout the page is pale and light, almost white, as this ensures best effectivens of the design style.
-
-
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609881480/ms4%20images/Screenshot_2021-01-05_at_21.17.21_nua89x.png" alt="Database Structure"></p>
 
-Color used for the fonts is off black, which gives the page a soft finish. Black font can be a bit invasive and eye hurting.
+### Wireframes
+
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-12_lxaltd.jpg" alt="All Product View - Mobile and PC"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-13_x9sx3z.jpg" alt="Product Detail View - Mobile and PC"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610107296/eCommerce_Web_Design-15_vyz1iw.jpg" alt="Register View - Mobile and PC"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-14_2_onyqe4.jpg" alt="Sign In View - Mobile and PC"></p>
+
+
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/database_structure_k2dbcm.png" width="auto" height="70" alt="Database Structure"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/features_bm7mnk.png" width="auto" height="70" alt="Features"></p>
