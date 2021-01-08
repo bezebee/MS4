@@ -178,7 +178,7 @@ This option is available to both logged in and not logged in users. The differen
 
 |  Feature |  Action | Effect |
 |---|---|---|
-| Logo (upper left corner)  |  Hover over (little had is not appearing!) |  The address on hover is showing as home page |
+| Logo (upper left corner)  |  Hover over |  The address on hover is showing as home page |
 | Search bar  |  Entered "Space", |<ul><li> one product is listed under this name - correct</li><li>The summary shows message "1 Products found for 'space'" (See if this can be amended to dependable if it's one or many, with or without s"</li>|
 |  All button, bringing back to all products |  Click on All button |  Linked correctly (Does not indent (neumorphically)upon clicking) |
 | Everything  |  Click on By Price |  Items appear sorted ascending, from low price to high |
@@ -228,6 +228,19 @@ This option is available to both logged in and not logged in users. The differen
 | Update profile  |  Click on My Account and My Profile |   |
 | Logo (upper left corner)  |   |   |
 
+#### User Stories Testing
+
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610130216/ms4%20images/186_0.5x_rlizkx.png" alt="User Stories Testing"></p>
+
+|  Feature |  Action | Effect |
+|---|---|---|
+| Registration  |   |   |
+| Login  |   |   |
+| Logout  |   |   |
+| Change Password  |   |   |
+| View profile  |  Click on My Account and My Profile |  DOLLAR SIGNS ON ORDER TOTALS! |
+| Update profile  |  Click on My Account and My Profile |   |
+| Logo (upper left corner)  |   |   |
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/deployment_o0onfb.png" width="auto" height="70" alt="Deployment"></p>
 
