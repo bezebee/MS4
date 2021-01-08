@@ -588,7 +588,9 @@ font-size: 16px;
 line-height: 25px;
 }
 /*footer*/
-
+menu.icons.first{
+    padding-left:0!important;
+}
 span.fab::before,
 span.far::before {
     font-size: 16px;
