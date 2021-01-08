@@ -241,6 +241,9 @@ This option is available to both logged in and not logged in users. The differen
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/deployment_o0onfb.png" width="auto" height="70" alt="Deployment"></p>
 
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/credits_n1yyeq.png" width="auto" height="70" alt="Credits"></p>
+
+
 ### The images of pins are used for Educational Purposes only. Most products are available to purchase from the designer, Holly Pixels.
 
 [![Holly Pixels](https://res.cloudinary.com/dugnokxox/image/upload/v1610144194/ms4%20images/Screenshot_2021-01-08_at_22.16.04_kr8cbb.png)](https://hollypixelsstudio.com/collections/enamel-pins/Enamel-Pins)
