@@ -47,13 +47,13 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 
 ## User Stories
 
-### Viewing and Navigation		
+#### Viewing and Navigation		
 - As a shopper I want to be able to View the list of products to purchase some
 - As a shopper I want to be able to VIew individual product details to identify the price, description, rating, image and available sizes
 - As a shopper I want to be able to Quickly identify deals, clearance items and special offers to take advantage of special savings on products I'd like to purchase
 - As a shopper I want to be able to Easily view the total of my purchases at any time to avoid spending too much
 
-### Registration and User Accounts  
+#### Registration and User Accounts  
 - As a registered shopper I want to be able to Easily register for an account so I can have a personal account and be able to view my profile
 - As a registered shopper I want to be able to Easily login or logout so I can access my personal account information
 - As a registered shopper I want to be able to Easily recover my password in case I forget it so I can recover access to my account
@@ -63,7 +63,7 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 - As a registered shopper I want to be able to Place an order for my personalised design so I can have my design made into pin, keyring or a piece of stationery
 - As a registered shopper I want to be able to Easily contact the store owner with any queries I might have so I can ask any questions I may have
 
-### Sorting and searching  
+#### Sorting and searching  
 - As a shopper I want to be able to Sort the list of available products so I can easily identify the best rated, best priced and categorically sorted products
 - As a shopper I want to be able to Sort a specific category of products so I can find best priced or best rated product in a specific category or sort the product in that category by name
 - As a shopper I want to be able to Sort multiple categories of products simultaneously so I can find the best priced or best rated products across board categories, such as pins or keyrings
@@ -78,28 +78,42 @@ Purchasing and Checkout
 - As a registered shopper I want to be able to View an order confirmation after checkout so I can verify that I have not made any mistakes
 - As a registered shopper I want to be able to Receive an email confirmation after checking out so I can keep the records of my purchases
 
-### Admin and Store Management  
+#### Admin and Store Management  
 - As a store owner Add a product as this would enable me to add new items to my store
 - As a store owner Edit/Update product to apply any changes, be it in price, description, image or other product criteria
 - As a store owner Delete a product Remove product if they are no longer for sale
 
 ## Design
 
-### Font
+#### Font
 
-### Color Scheme
+#### Color Scheme
 
 The use of neumorphic design througout the page influenced a decision of one main color being used. The color used throughout the page is pale and light, almost white, as this ensures best effectivens of the design style.
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609881480/ms4%20images/Screenshot_2021-01-05_at_21.17.21_nua89x.png" alt="Database Structure"></p>
 
-### Wireframes
-
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-12_lxaltd.jpg" alt="All Product View - Mobile and PC"></p>
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-13_x9sx3z.jpg" alt="Product Detail View - Mobile and PC"></p>
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610107296/eCommerce_Web_Design-15_vyz1iw.jpg" alt="Register View - Mobile and PC"></p>
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-14_2_onyqe4.jpg" alt="Sign In View - Mobile and PC"></p>
+#### Wireframes
 
 
+<details><summary>All Products - Mobile and PC</summary>
+ 
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-12_lxaltd.jpg)
+</details>
+
+<details><summary>Product Detail - Mobile and PC</summary>
+ 
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-13_x9sx3z.jpg)
+</details>
+
+<details><summary>Register Account - Mobile and PC</summary>
+ 
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1610107296/eCommerce_Web_Design-15_vyz1iw.jpg)
+</details>
+
+<details><summary>Sign In - Mobile and PC</summary>
+ 
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-14_2_onyqe4.jpg)
+</details>
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/database_structure_k2dbcm.png" width="auto" height="70" alt="Database Structure"></p>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/features_bm7mnk.png" width="auto" height="70" alt="Features"></p>
@@ -152,7 +166,7 @@ This option is available to both logged in and not logged in users. The differen
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/testing_ioxxts.png" width="auto" height="70" alt="Testing"></p>
 
-### Product Features
+#### Product Features
 
 |  Feature |  Action | Effect |
 |---|---|---|
@@ -192,7 +206,7 @@ This option is available to both logged in and not logged in users. The differen
 |   |   |   |
 |   |   |   |
  
-### Users Features
+#### Users Features
 
 |  Feature |  Action | Effect |
 |---|---|---|
