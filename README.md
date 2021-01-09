@@ -158,7 +158,7 @@ This option is available to both logged in and not logged in users. The differen
 [![Shields](https://img.shields.io/badge/Readme%20Badges-Shields-lightgrey)](https://shields.io/)
 [![Heroku](https://img.shields.io/badge/App%20Hosting-Heroku-%237B68EE)](https://www.heroku.com/home)
 [![Python](https://img.shields.io/badge/Back%20end%20programming-Python-%09%23008000)](https://www.python.org/)
-[![SQlite3](https://img.shields.io/badge/Production%20-Database-Orange)](https://www.sqlite.org)
+[![SQlite3](https://img.shields.io/badge/Database-Orange)](https://www.sqlite.org)
 [![Postgres](https://img.shields.io/badge/Image%20editing-Postgres-blue)](https://www.postgresql.org/)
 [![AWS Services](https://img.shields.io/badge/AWS%20-Services-orange)](https://aws.amazon.com/)
 [![W3C HTML Validator](https://img.shields.io/badge/HTML%20Validator-W3C%20HTML%20Validator-red)](https://validator.w3.org/)
