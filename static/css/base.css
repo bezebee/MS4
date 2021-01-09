@@ -461,7 +461,7 @@ input#id_county,
 input#id_postcode,
 select#id_country,
 div#card-element,
-input#id_qty_4,
+input.qty_input,
 select#id_category,
 input#id_sku,
 input#id_name,
@@ -493,6 +493,13 @@ border:none!important;
     .btn-add {
         margin-top: 10px!important;
     }
+}
+@media (max-width: 365px) {
+    .mb-0,
+    div.toast-body.bg-white {
+        font-size: 12px;
+    }
+
 }
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) 
