@@ -707,39 +707,3 @@ a.btn-lg{
 
 /* 404 */
 
-
-.container h5
-{
-	font-size: 30px;
-	color: #e2e2e2;
-	text-shadow: 1px 1px 2px rgba(255,255,255,1),-1px -1px 1px rgba(0,0,0,0.7); 
-}
-.container h2
-{
-	font-size: 170px;
-	color: #e2e2e2;
-	text-shadow: 2px 2px 2px rgba(255,255,255,0.7),-2px -2px 2px rgba(0,0,0,0.5);
-}
-.container h6
-{
-	font-size: 20px;
-	color: #602b69;
-	text-shadow: 1px 1px 1px rgba(255,255,255,1),-1px -1px 1px rgba(0,0,0,0.5);
-}
-.guzik
-{
-	height: 70px;
-	width: 240px;
-	box-shadow: inset 2px 2px 4px rgba(255,255,255,0.9), inset -2px -2px 4px rgba(0,0,0,0.3);
-	border-radius: 40px 10px;
-	margin:10px 0px;
-	display: grid;
-	place-items: center;
-}
-.guzik h3
-{
-	color: #e2e2e2;
-	font-size: 25px;
-	cursor: pointer;
-	text-shadow: 1px 1px 1px rgba(255,255,255,1), -1px -1px 1px rgba(0,0,0,0.6);
-}
