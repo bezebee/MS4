@@ -1,0 +1,31 @@
+{% extends "base.html" %} 
+{% load static %} 
+{% block page_header %}
+
+<div class="container header-container">
+    <div class="row">
+        <div class="col-7 col-md-6"></div>
+    </div>
+</div>
+
+{% endblock %} 
+{% block content %}
+<div class="container h-100">
+    <div class="row h-100">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+
+
+            <h1 class="display-4 logo-font site-name">Page Not Found</h1>
+
+            <div class="mx-auto my-5">
+                <h4>
+                    <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Back to Shop</a>
+                </h4>
+            </div>
+        </div>
+
+        {% include 'includes/featured.html' %}
+    </div>
+</div>
+{% endblock %}
