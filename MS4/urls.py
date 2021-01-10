@@ -19,6 +19,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 from contact.views import contact
 from order.views import order
+from django.views.static import serve 
+from django.conf.urls import url
 
 
 urlpatterns = [
@@ -32,5 +34,7 @@ urlpatterns = [
     path('sketches/', include('sketches.urls')),
     path('contact/', contact, name="contact"),
     path('order/', order, name="order"),
+    url(r'^media/(?P<path>.*)$', serve,{'document_root': settings.MEDIA_ROOT}), 
+    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

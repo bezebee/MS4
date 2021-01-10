@@ -157,6 +157,19 @@ background: #faf9f7;
 z-index: -1;
 }
 
+.overlay-404 { 
+height: 100%;
+width: 100%;
+top: 30px;
+left: 0;
+position: fixed;
+background: url('https://res.cloudinary.com/dugnokxox/image/upload/v1610288563/kick_push_dribbble_ge9ciq.gif') no-repeat center center fixed;
+background-color: #f4f4f4;
+z-index: -1;
+/*background-position: 20px 350px;*/
+background-size: ;
+}
+
 .contact-form{
 margin-top:100px;
 }
@@ -704,6 +717,4 @@ a.btn-lg{
 }
 
 }
-
-/* 404 */
 
