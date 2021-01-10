@@ -245,7 +245,7 @@ This option is available to both logged in and not logged in users. The differen
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610288563/kick_push_dribbble_ge9ciq.gif" width="auto" height="120" alt="Error 404"></p>
 
-<p align="center"><img src="https://https://res.cloudinary.com/dugnokxox/image/upload/v1610293093/ms4%20images/Screenshot_2021-01-10_at_15.37.44_jbups6.png"  alt="Error 404 Screenshot"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610293093/ms4%20images/Screenshot_2021-01-10_at_15.37.44_jbups6.png"    alt="Error 404 Screenshot"></p>
 
 ##### 500
 
