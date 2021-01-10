@@ -264,7 +264,9 @@ This option is available to both logged in and not logged in users. The differen
 [![Holly Pixels](https://res.cloudinary.com/dugnokxox/image/upload/v1610144194/ms4%20images/Screenshot_2021-01-08_at_22.16.04_kr8cbb.png)](https://hollypixelsstudio.com/collections/enamel-pins/Enamel-Pins)
 
 # The gif animations are used for Educational Purposes only. 
-<p><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610288563/kick_push_dribbble_ge9ciq.gif" width="auto" height="120" alt="Error 404"></p>
 
-<p><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610291337/image_processing20200811-20221-10kgdnz_wuyupq.gif" width="auto" height="120" alt="Error 500"></p>
+[James Curran](https://dribbble.com/slimjimstudios) | [Marcus Magnusson](https://dribbble.com/MarkusM)
+:-------------------------:|:-------------------------:
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1610291337/image_processing20200811-20221-10kgdnz_wuyupq.gif)  |  ![](https://res.cloudinary.com/dugnokxox/image/upload/v1610288563/kick_push_dribbble_ge9ciq.gif)
+
 
