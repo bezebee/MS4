@@ -243,15 +243,11 @@ This option is available to both logged in and not logged in users. The differen
 
 ##### 404
 
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610288563/kick_push_dribbble_ge9ciq.gif" width="auto" height="120" alt="Error 404"></p>
-
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610293093/ms4%20images/Screenshot_2021-01-10_at_15.37.44_jbups6.png"    alt="Error 404 Screenshot"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610295737/ed53286c91f7bc0591961a39a1d61366be452ab0_cikwpt.gif" alt="Error 404 Screenrecording"></p>
 
 ##### 500
 
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610291337/image_processing20200811-20221-10kgdnz_wuyupq.gif" width="auto" height="120" alt="Error 500"></p>
-
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610293093/ms4%20images/Screenshot_2021-01-10_at_15.36.58_eaxhpu.png" alt="Error 500 Screenshot"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610295914/fe381bc034796c3bc0f0d9a62449f24595ad9a6f_ipukmj.gif" alt="Error 500 Screenrecording"></p>
 
 
 
