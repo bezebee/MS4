@@ -9,7 +9,7 @@
 ## Intro
 
 
-<p align="center">This task is essential for the 'Full Stack Frameworks with Django' module of the Code Institute Full Stack Software Development course. 
+<p align="center">This task is the final project for the 'Full Stack Frameworks with Django' module of the Code Institute Full Stack Software Development course. 
 This project is an eCommerce shop front to host decorative pins, keychains and cute stationery. The name chosen for the website is nicknacks, which means in free translation "this and that". The name choice will allow administrator to expand on the produce offered.</p>
 
 <p align="center">The site is worked within Django structure, sent live on Heroku, utilizes AWS S3 to have media and static records. Locally, it utilizes the inherent Django Db.sqlite3 information base, though when conveyed live it uses Heroku's Postgres information base. Authentication functionality is provided by Django's Allauth: administrator superuser can add and alter things in the Products and Categories applications, while visiting clients can enlist and login, accessing vestige depictions and their request history in the Checkout and Profile applications. A section has also been made available to the enlisted client, to add their own drawings, which can in due course be used as designs of their own. This is analysed furthermore in this readme, under the relevant heading.</p>
@@ -238,6 +238,22 @@ This option is available to both logged in and not logged in users. The differen
 | View profile  |  Click on My Account and My Profile |  |
 | Update profile  |  Click on My Account and My Profile |   |
 | Logo (upper left corner)  |   |   |
+
+#### Error pages testing
+
+##### 404
+
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610288563/kick_push_dribbble_ge9ciq.gif" width="auto" height="120" alt="Error 404"></p>
+
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/deployment_o0onfb.png"  alt="Error 404 Screenshot"></p>
+
+##### 500
+
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610291337/image_processing20200811-20221-10kgdnz_wuyupq.gif" width="auto" height="120" alt="Error 500"></p>
+
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610293093/ms4%20images/Screenshot_2021-01-10_at_15.36.58_eaxhpu.png" alt="Error 500 Screenshot"></p>
+
+
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/deployment_o0onfb.png" width="auto" height="70" alt="Deployment"></p>
 
