@@ -6,10 +6,10 @@
 
 
 
-## Intro
+# Intro
 
 
-<p align="center">This task is essential for the 'Full Stack Frameworks with Django' module of the Code Institute Full Stack Software Development course. 
+<p align="center">This task is the final project for the 'Full Stack Frameworks with Django' module of the Code Institute Full Stack Software Development course. 
 This project is an eCommerce shop front to host decorative pins, keychains and cute stationery. The name chosen for the website is nicknacks, which means in free translation "this and that". The name choice will allow administrator to expand on the produce offered.</p>
 
 <p align="center">The site is worked within Django structure, sent live on Heroku, utilizes AWS S3 to have media and static records. Locally, it utilizes the inherent Django Db.sqlite3 information base, though when conveyed live it uses Heroku's Postgres information base. Authentication functionality is provided by Django's Allauth: administrator superuser can add and alter things in the Products and Categories applications, while visiting clients can enlist and login, accessing vestige depictions and their request history in the Checkout and Profile applications. A section has also been made available to the enlisted client, to add their own drawings, which can in due course be used as designs of their own. This is analysed furthermore in this readme, under the relevant heading.</p>
@@ -19,17 +19,17 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/user_experience_cpzk3c.png" width="auto" height="70" alt="UX"></p>
 
-## Goals
+# Goals
 
 <p align="center">The main goal of the nicknacks is to sell beautiful hand made accessories. Secondly, through that website people can order something they have designed and desire to have made into piece of accessory or piece of stationery</p>
 
-## Target Audience
+# Target Audience
 
 - Users aged 8 to 80
 - Users interested in cute accessories and stationery
 - Users with interest in accessory and stationery design and production for their own use
 
-## Business Goals
+# Business Goals
 
 - To create a platform that enables the prospect client to find and purchase the product they like
 - To enable prospect user to submit their design and have it either just stored or even produced
@@ -37,7 +37,7 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 - Offer a presentable design of the website, with the use of neumorphic design, to increase aesthetic appeal
 - Offer easy interaction on the page
 
-## Customer goals
+# Customer goals
 
 - Finding product that fits their taste
 - Buy product through an easy payment flow
@@ -45,15 +45,15 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 - Place order for their designs, to have them produced
 - See their previous purchases
 
-## User Stories
+# User Stories
 
-#### Viewing and Navigation		
+### Viewing and Navigation		
 - As a shopper I want to be able to View the list of products to purchase some
 - As a shopper I want to be able to VIew individual product details to identify the price, description, rating, image and available sizes
 - As a shopper I want to be able to Quickly identify deals, clearance items and special offers to take advantage of special savings on products I'd like to purchase
 - As a shopper I want to be able to Easily view the total of my purchases at any time to avoid spending too much
 
-#### Registration and User Accounts  
+### Registration and User Accounts  
 - As a registered shopper I want to be able to easily register for an account so I can have a personal account and be able to view my profile
 - As a registered shopper I want to be able to easily login or logout so I can access my personal account information
 - As a registered shopper I want to be able to easily recover my password in case I forget it so I can recover access to my account
@@ -63,7 +63,7 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 - As a registered shopper I want to be able to place an order for my personalised design so I can have my design made into pin, keyring or a piece of stationery
 - As a registered shopper I want to be able to easily contact the store owner with any queries I might have so I can ask any questions I may have
 
-#### Sorting and searching  
+### Sorting and searching  
 - As a shopper I want to be able to sort the list of available products so I can easily identify the best rated, best priced and categorically sorted products
 - As a shopper I want to be able to sort a specific category of products so I can find best priced or best rated product in a specific category or sort the product in that category by name
 - As a shopper I want to be able to sort multiple categories of products simultaneously so I can find the best priced or best rated products across board categories, such as pins or keyrings
@@ -78,24 +78,24 @@ Purchasing and Checkout
 - As a registered shopper I want to be able to view an order confirmation after checkout so I can verify that I have not made any mistakes
 - As a registered shopper I want to be able to receive an email confirmation after checking out so I can keep the records of my purchases
 
-#### Admin and Store Management  
+### Admin and Store Management  
 - As a store owner I want to be able to add a product as this would enable me to add new items to my store
 - As a store owner I want to be able to Edit/Update product to apply any changes, be it in price, description, image or other product criteria
 - As a store owner I want to be able to delete a product remove product if they are no longer for sale
 
-## Design
+# Design
 
-#### Font
+### Font
 
 Throughout the project there is only one font used, which is Montserrat at various weighs. The aim is to make this website as minimalist and clean as possible, to make the neumorphic effect stand out more.
 
-#### Color Scheme
+### Color Scheme
 
 The use of neumorphic design througout the page influenced a decision of one main color being used. The color used throughout the page is pale and light, almost white, as this ensures best effectivens of the design style.
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609881480/ms4%20images/Screenshot_2021-01-05_at_21.17.21_nua89x.png" alt="Database Structure"></p>
 
-#### Wireframes
+### Wireframes
 
 
 <details><summary>All Products - Mobile and PC</summary>
@@ -118,7 +118,10 @@ The use of neumorphic design througout the page influenced a decision of one mai
 ![](https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-14_2_onyqe4.jpg)
 </details>
 
+<br><br>
+
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/database_structure_k2dbcm.png" width="auto" height="70" alt="Database Structure"></p>
+<br><br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/features_bm7mnk.png" width="auto" height="70" alt="Features"></p>
 
 - Products to purchase through an ecommerce system
@@ -141,7 +144,7 @@ For the registered and while logged in user that is not a superuser, they will b
 For the regisered and logged in as a superuser, the user will be able to do all of the above plus Manage the main products of the ecommerce. This will include adding, editing and deleting the products."
 - Basket 
 This option is available to both logged in and not logged in users. The difference is, only logged in user will be able to successfully check out with the items, as this option is for the time being only made available to the logged in user.
-
+<br><br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/technologies_mr6sj9.png" width="auto" height="70" alt="Technologies"></p>
 
 [![Gitpod](https://img.shields.io/badge/IDE-Gitpod-blue)](https://www.gitpod.io/)
@@ -174,7 +177,7 @@ This option is available to both logged in and not logged in users. The differen
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610112449/ms4%20images/PFCMNF1_0.5x_ns8gtj.png" alt="All screens"></p>
 
-#### Product Features
+### Product Features
 
 |  Feature |  Action | Effect |
 |---|---|---|
@@ -213,7 +216,7 @@ This option is available to both logged in and not logged in users. The differen
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610112217/ms4%20images/Mobile_mock_up_puqyce.png" alt="Mobile  mockup"></p>
 
  
-#### Users Features
+### Users Features
 
 |  Feature |  Action | Effect |
 |---|---|---|
@@ -225,7 +228,7 @@ This option is available to both logged in and not logged in users. The differen
 | Update profile  |  Click on My Account and My Profile |   |
 | Logo (upper left corner)  |   |   |
 
-#### User Stories Testing
+### User Stories Testing
 
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610130216/ms4%20images/186_0.5x_rlizkx.png" alt="User Stories Testing"></p>
 
@@ -239,12 +242,31 @@ This option is available to both logged in and not logged in users. The differen
 | Update profile  |  Click on My Account and My Profile |   |
 | Logo (upper left corner)  |   |   |
 
+### Error pages testing
+
+#### 404
+
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610295737/ed53286c91f7bc0591961a39a1d61366be452ab0_cikwpt.gif" alt="Error 404 Screenrecording"></p>
+
+#### 500
+
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610295914/fe381bc034796c3bc0f0d9a62449f24595ad9a6f_ipukmj.gif" alt="Error 500 Screenrecording"></p>
+
+
+<br><br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/deployment_o0onfb.png" width="auto" height="70" alt="Deployment"></p>
 
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1606579543/20786350-B46F-40B3-86F3-4D97002D9FB6_xizcyw.png" width="auto" height="170" alt="Copyright"></p>
- <br><br><br>
+<br><br><br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/credits_n1yyeq.png" width="auto" height="70" alt="Credits"></p>
 
-## The images of pins are used for Educational Purposes only. Most products are available to purchase from the designer, Holly Pixels.
+### The images of pins are used for Educational Purposes only. Most products are available to purchase from the designer, Holly Pixels.
 
 [![Holly Pixels](https://res.cloudinary.com/dugnokxox/image/upload/v1610144194/ms4%20images/Screenshot_2021-01-08_at_22.16.04_kr8cbb.png)](https://hollypixelsstudio.com/collections/enamel-pins/Enamel-Pins)
+
+### The gif animations are used for Educational Purposes only. 
+
+[James Curran](https://dribbble.com/slimjimstudios) | [Marcus Magnusson](https://dribbble.com/MarkusM)
+:-------------------------:|:-------------------------:
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1610291337/image_processing20200811-20221-10kgdnz_wuyupq.gif)  |  ![](https://res.cloudinary.com/dugnokxox/image/upload/v1610288563/kick_push_dribbble_ge9ciq.gif)
+
+
