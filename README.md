@@ -361,9 +361,11 @@ the 'DATABASE_URL' to the Config Vars.
 <br><br><br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/credits_n1yyeq.png" width="auto" height="70" alt="Credits"></p>
 
-### The images of pins are used for Educational Purposes only. Most products are available to purchase from the designer, Holly Pixels.
+### The images of pins are used for Educational Purposes only. Products are available to purchase from these pages:
 
-[![Holly Pixels](https://res.cloudinary.com/dugnokxox/image/upload/v1610144194/ms4%20images/Screenshot_2021-01-08_at_22.16.04_kr8cbb.png)](https://hollypixelsstudio.com/collections/enamel-pins/Enamel-Pins)
+[Holly Pixels](https://hollypixelsstudio.com/collections/enamel-pins/Enamel-Pins) | [Mustard](https://www.justmustard.com/product/genius-clips/)
+:-------------------------:|:-------------------------:
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1607500119/ms4%20images/tardigrade_ohz0rw.png)  |  ![](https://res.cloudinary.com/dugnokxox/image/upload/v1604944776/ms4%20images/download_14_uili5w.jpg)
 
 ### The gif animations are used for Educational Purposes only. 
 
