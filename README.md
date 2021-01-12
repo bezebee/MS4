@@ -48,13 +48,13 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 # User Stories
 
 ### Viewing and Navigation		
-- As a shopper I want to be able to View the list of products to purchase some
-- As a shopper I want to be able to VIew individual product details to identify the price, description, rating, image and available sizes
-- As a shopper I want to be able to Quickly identify deals, clearance items and special offers to take advantage of special savings on products I'd like to purchase
-- As a shopper I want to be able to Easily view the total of my purchases at any time to avoid spending too much
+- As a shopper I want to be able to view the list of products to purchase some
+- As a shopper I want to be able to view individual product details to identify the price and description
+- As a shopper I want to be able to quickly identify  special offers to take advantage of special savings on products I'd like to buy
+- As a shopper I want to be able to easily view the total of my purchases at any time to see the history of my purchases and how much I spent.
 
 ### Registration and User Accounts  
-- As a registered shopper I want to be able to easily register for an account so I can have a personal account and be able to view my profile
+- As a registered shopper I want to be able to easily register for an account so I can have a personal account, be able to see what I purchased or designs I uploaded
 - As a registered shopper I want to be able to easily login or logout so I can access my personal account information
 - As a registered shopper I want to be able to easily recover my password in case I forget it so I can recover access to my account
 - As a registered shopper I want to be able to receive an email confirmation after registering so I can verify that my account registration was successful
@@ -162,7 +162,6 @@ This option is available to both logged in and not logged in users. The differen
 [![Heroku](https://img.shields.io/badge/App%20Hosting-Heroku-%237B68EE)](https://www.heroku.com/home)
 [![Python](https://img.shields.io/badge/Back%20end%20programming-Python-%09%23008000)](https://www.python.org/)
 [![SQlite3](https://img.shields.io/badge/SQLite-Production%20Database-yellowgreen)](https://www.sqlite.org)
-[![Postgres](https://img.shields.io/badge/Image%20editing-Postgres-blue)](https://www.postgresql.org/)
 [![AWS Services](https://img.shields.io/badge/AWS%20-Services-orange)](https://aws.amazon.com/)
 [![W3C HTML Validator](https://img.shields.io/badge/HTML%20Validator-W3C%20HTML%20Validator-red)](https://validator.w3.org/)
 [![W3C CSS Validator](https://img.shields.io/badge/CSS%20Validator-W3C%20CSS%20Validator-darkred)](https://jigsaw.w3.org/css-validator/)
@@ -212,10 +211,18 @@ This option is available to both logged in and not logged in users. The differen
 | Adding product to the basket  |  Click on the Product and click Add to Basket |  <ul><li>Basket total updates to the correct amount, success toast confirms the product was added to the bag </li></ul> |
 | Navigating from Product Detail back to All Products  |  Click on the Keep Shopping button |  A page with all product is rendered |
 | Checking out  |  Click on the Shopping Bag, click on Secure Checkout |  <ul><li>Non registered user - a sign in page renders with option to register, if user is not yet registered</li><li>Registered User - A Checkout page is rendered with most information saved as per users account. User can also see the Order Summary to the right of the form</li><li>Entered card details and name, after which clicked on the Complete Transaction button</li><li>A thank you page is rendered, with a summary of order as well as the success toast renders in upper right corner</li><li>Confirmation email arrives to the email box</li></ul> |
+
+### For testing the Stripe checkout use the following:
+
+ - __Card number__: 4242 4242 4242 4242
+ - __CVC__: any 3 digits
+ - __Card expiry date__: any future date
+ - __ZIP/Postcode__: any 5 digits
+ 
  
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610112217/ms4%20images/Mobile_mock_up_puqyce.png" alt="Mobile  mockup"></p>
 
- 
+
 ### Users Features
 
 |  Feature |  Action | Effect |
@@ -255,6 +262,101 @@ This option is available to both logged in and not logged in users. The differen
 
 <br><br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/deployment_o0onfb.png" width="auto" height="70" alt="Deployment"></p>
+
+### Requirements
+
+ - an IDE such as GitPod or Visual Studio Code - I used GitPod
+ - [PIP](https://pip.pypa.io/en/stable/installing/) to install packages in Python
+ - [python 3](https://www.python.org/downloads/) programming language used on the back-end
+ - [git](https://git-scm.com/) version control system for code source
+ - [stripe](https://stripe.com/) create an account for online payments
+ - [AWS](https://aws.amazon.com/) cloud storage service for online backup of website assets. (Create an S3 bucket)
+
+
+### Local deployment
+1. Save a copy of the github repository at https://github.com/bezebee/MS4.git by clicking the 'download.zip'
+button at the top of the page and extracting the zip file, or you clone the repository with this command:
+   ```
+   $ git clone https://github.com/bezebee/MS4.git
+   ```
+1. Copy the repository into your IDE.
+1. Install all required modules with the command:
+   ```
+   pip3 install -r requirements.txt
+   ```
+
+1. Store your environment variables and save them in the 'Environment Variables'-Settings in your IDE:
+
+    ```bash
+    'DEVELOPMENT', 'True'
+    'SECRET_KEY', '<your value>'
+    'STRIPE_PUBLIC_KEY', '<your value>'
+    'STRIPE_SECRET_KEY', '<your value>'
+    'STRIPE_WH_SECRET', '<your value>'
+    ```
+1. Replace <your value> with the values from your own accounts
+    - The SECRET KEY: you can get from a free Django Secret Key Generator
+    - STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY: from Developer's API on the Stripe dashboard
+    - STRIPE_WH_SECRET: from Stripe's developer API after creating a webhook
+     
+1. Set up the local database by running these two commands:
+    ```bash
+    python3 manage.py makemigrations
+    python3 manage.py migrate
+    ```
+   
+1. Create a superuser for the database, in order to access Django's admin-panel
+    ```bash
+    python3 manage.py createsuperuser
+    ```
+
+1. Start your server by running the following management command in your terminal:
+    ```bash
+    python3 manage.py runserver
+    ```
+
+
+### Deployment on Heroku
+
+1. Go to https://heroku.com/ and create a new app with a unique name
+1. Provision the Postgres database: Go to the Resources tab and install the addon "Heroku Postgres". Heroku automatically adds
+the 'DATABASE_URL' to the Config Vars.
+1. Go to the Settings tab, click Reveal Config Vars and copy the DATABASE_URL value into your local memory.
+1. In your App on Heroku, go to the Settings tab, and click on 'Reveal Config Vars', set these variables:
+    
+    ```bash
+    'AWS_ACCESS_KEY_ID', '<your value>'
+    'AWS_SECRET_ACCESS_KEY', '<your value>'
+    'DATABASE_URL', '<your value>'
+    'SECRET_KEY', '<your value>'
+    'STRIPE_PUBLIC_KEY', '<your value>'
+    'STRIPE_SECRET_KEY', '<your value>'
+    'STRIPE_WH_SECRET', '<your value>'
+    'USE_AWS', 'True'
+    ```
+
+1. Migrate the database:
+    ```bash
+    python3 manage.py makemigrations
+    python3 manage.py migrate
+    ```
+1. Create a superuser for the database, to access Django's admin panel:
+    ```
+    python3 manage.py createsuperuser
+    ```
+1. If any packages have been updated, make a new requirements.txt file: 
+    ```
+    pip freeze > requirements.txt
+    ```
+1. Create a new file named Procfile with no file extension, add web: python app.py to the file and save
+1. push files that were changed to Github:
+    ```bash
+   git add .
+   git commit -m "..."
+   git push
+   ``` 
+1. Go back to the Heroku, open your app and go to the Deploy tab. Choose a Deployment method, I deployed mine through GitHub.
+1. By choosing Github as a deployment method, I had to enter your Github link and choose Automatic Deployments. This will enable every commit to push directly to Heroku.
 
 <br><br><br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/credits_n1yyeq.png" width="auto" height="70" alt="Credits"></p>
