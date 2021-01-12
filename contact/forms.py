@@ -9,6 +9,8 @@ class ContactForm(forms.ModelForm):
     email = forms.CharField(label="", widget=forms.TextInput(attrs={'placeholder': 'Email address'}))
     message = forms.CharField(label="", widget=forms.Textarea(attrs={'placeholder': 'Message'}))
 
+# added 'form-control' for responsiveness
+
     def __init__(self, *args, **kwargs):
         super(ContactForm, self).__init__(*args, **kwargs)
         for visible in self.visible_fields():

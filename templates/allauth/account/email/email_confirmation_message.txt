@@ -4,4 +4,16 @@
 
 {% block content %}{% autoescape off %}{% user_display user as user_display %}{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}You're receiving this e-mail because user {{ user_display }} has given your e-mail address to register an account on {{ site_domain }}.
 
-To confirm this is correct, go to {{ activate_url }}{% endblocktrans %}{% endautoescape %}{% endblock %}
+To confirm this is correct, go to {{ activate_url }}.
+
+PLEASE, NOTE. THIS WEBSITE IS FOR EDUCATIONAL PURPOSES ONLY. 
+DO NOT, UNDER ANY CIRCUMSTANCES ENTER A REAL CREDIT CARD NUMBER AS YOU MAY BE CHARGED.
+
+For testing the Stripe checkout use the following:
+Card number: 4242 4242 4242 4242
+CVC: any 3 digits
+Card expiry date: any future date
+ZIP/Postcode: any 5 digits
+
+
+Enjoy this website and Welcome!{% endblocktrans %}{% endautoescape %}{% endblock %}

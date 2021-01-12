@@ -3,6 +3,10 @@ from django.shortcuts import render
 from .forms import OrderForm
 
 
+# function to render the order form returning order confirmation
+# upon submitting
+
+
 def order(request):
     template = "order/order.html"
 
@@ -20,4 +24,3 @@ def order(request):
         'form': form,
     }
     return render(request, template, context)
-

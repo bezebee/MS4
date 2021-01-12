@@ -12,6 +12,8 @@ class OrderForm(forms.ModelForm):
     description = forms.CharField(label="", widget=forms.Textarea(attrs={'placeholder': 'Description'}))
     special_requests = forms.CharField(label="", widget=forms.Textarea(attrs={'placeholder': 'Special Requests'}))
 
+# added 'form-control' for responsiveness
+
     def __init__(self, *args, **kwargs):
         super(OrderForm, self).__init__(*args, **kwargs)
         for visible in self.visible_fields():
