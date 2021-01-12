@@ -382,6 +382,10 @@ button:nth-child(9) {
 	color: #b6bbc5;
 }
 
+menu.icons.first li { padding: 0px; }
+menu.icons.first li a { margin: 0px; display: block; width: 100%; height: 100%; }
+
+
 .first li.shadow-1 {
 	box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px rgba(94, 104, 121, 0.288);
 }
