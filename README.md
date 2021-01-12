@@ -14,6 +14,27 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 
 <p align="center">The site is worked within Django structure, sent live on Heroku, utilizes AWS S3 to have media and static records. Locally, it utilizes the inherent Django Db.sqlite3 information base, though when conveyed live it uses Heroku's Postgres information base. Authentication functionality is provided by Django's Allauth: administrator superuser can add and alter things in the Products and Categories applications, while visiting clients can enlist and login, accessing vestige depictions and their request history in the Checkout and Profile applications. A section has also been made available to the enlisted client, to add their own drawings, which can in due course be used as designs of their own. This is analysed furthermore in this readme, under the relevant heading.</p>
 
+* [UX](#goals)
+  * [Goals](#goals)
+  * [Target Audience](#target-audience)
+  * [Business Goals](#business-goals)
+  * [Customer Goals](#customer-goals)
+  * [User Stories](#user-stories)
+    * [Viewing and Navigation](#viewing-and-navigation)
+    * [Registration and Users Accounts](#registration-and-users-accounts)
+    * [Sorting and Searching](#sorting-and-searching)
+    * [Admin and Store Management](#admin-and-store-management)
+  * [Design](#design)
+    * [Font](#font)
+    * [Color Scheme](#color-scheme)
+    * [Wireframes](#wireframes)
+    * [Registration and User Accounts](#registration-and-users-accounts)
+* [Database Structure](#)
+* [Features](#)
+* [Technology](#)
+* [Testing](#)
+* [Deployment](#)
+* [Credits](#)
 
 
 
