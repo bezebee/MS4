@@ -73,7 +73,8 @@ body {
 input.form-control.border.border-black.rounded-0,
 #sort-selector {
 	box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px rgba(94, 121, 100, 0.288);
-	border: 1px solid #b6bbc528;
+    border: none!important;
+    border-radius: 8px!important;
 }
 
 button.navbar-toggler,
@@ -85,7 +86,7 @@ button.form-control,
 	border-radius: 8px!important;
 	transition: background 0.5s;
 	box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.288);
-	border: none;
+	border: none!important;
 }
 
 button.navbar-toggler,
@@ -466,8 +467,9 @@ ul {
 }
 
 
-/*----Neumorphic effect: Contact form/checkout form/shopping bag form/product management form/my profile form---*/
+/*----Neumorphic effect: Contact form/checkout form/shopping bag form/product management form/my profile form/design management---*/
 
+#id_sheet,
 textarea#id_message,
 input#id_first_name,
 input#id_last_name,

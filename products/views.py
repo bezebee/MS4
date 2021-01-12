@@ -7,7 +7,6 @@ from django.db.models.functions import Lower
 from .models import Product, Category
 from .forms import ProductForm
 
-# Create your views here.
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
@@ -39,7 +38,6 @@ def all_products(request):
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
-
         if'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -59,6 +57,7 @@ def all_products(request):
     }
 
     return render(request, 'products/products.html', context)
+
 
 def product_detail(request, product_id):
     """ A view to show product detail """
@@ -127,6 +126,7 @@ def edit_product(request, product_id):
     }
 
     return render(request, template, context)
+
 
 @login_required
 def delete_product(request, product_id):
