@@ -361,6 +361,15 @@ the 'DATABASE_URL' to the Config Vars.
 <br><br><br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/credits_n1yyeq.png" width="auto" height="70" alt="Credits"></p>
 
+The inspiration for the website was mainly taken from the Coding Institute lectures presented by Chris Zielinski. 
+Below are other resources I used while building the project:
+
+[CSS3 Neumorphic Social Media Icons | Coding Nepal](https://www.youtube.com/watch?v=85tDF_h1Ci4&ab_channel=CodingNepal)
+[Neumorphic design example - Codepen](https://codepen.io/Web_Cifar/pen/gObzrMR)
+[Neumorphism and CSS](https://css-tricks.com/neumorphism-and-css/)
+[Debug False not rendering static files locally - Solution from StackOverflow](https://stackoverflow.com/questions/5836674/why-does-debug-false-setting-make-my-django-static-files-access-fail)
+
+
 ### The images of pins are used for Educational Purposes only. Products are available to purchase from these pages:
 
 [Holly Pixels](https://hollypixelsstudio.com/collections/enamel-pins/Enamel-Pins) | [Mustard](https://www.justmustard.com/product/genius-clips/)
