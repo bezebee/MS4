@@ -201,36 +201,36 @@ This option is available to both logged in and not logged in users. The differen
 
 |  Feature |  Action | Effect |
 |---|---|---|
-| Logo (upper left corner)  |  Hover over |  The address on hover is showing as home page |
-| Search bar  |  Entered "Space", |<ul><li> one product is listed under this name - correct</li><li>The summary shows message "1 Products found for 'space'" (See if this can be amended to dependable if it's one or many, with or without s"</li>|
-|  All button, bringing back to all products |  Click on All button |  Linked correctly  |
-| Everything  |  Click on By Price |  Items appear sorted ascending, from low price to high |
-|   |  Click on By Rating |  Items appear sorted descending, from high rating to low |
-|   |  Click on By Category |  Categories of Items become sorted alphabetically |
-|   |  Click on Everything |  All items are displayed, sorted by SKU |
-| Pins  |  Click on Animals |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
-|   |  Click on Things |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
-|   |  Click on People |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
-|   |  Click on Plants |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
-|   |  Click on All Pins |  All Pins are displaying now |
-| Randoms  |  Click on Keychains |  Keychains are displayed, the badge on top of the page states same. |
-|   |  Click on Stickers |  Stickers are displayed, along with badge |
-|   |  Click on Stationery |  Stationery and badge are here |
-| Special Offers  |  Click on New Arrivals |  New Arrivals and badge are here |
-|   |  Click on Sale |  Pins from that Category are displayed, the badge on top of the page also states what Category we are at. |
-| My Account  |  Click on Register |  <ul><li>Sign up form appears</li><li>Form sends</li><li>Confirmation email appears in the email box</li><li>Clicked on the confirmation email - Confirm email address page appears</li><li>Logged in with newly created account - the success message appears and I am now logged in</li><li>Upon clicking Confirm, a success message appears and a signing page is returned</li><li></li></ul> |
-|   |  Click on Login |  The address on hover is showing as home page |
-| Basket  |  Bag empty |  Click on Keep Shopping button, brings me back to all Products page |
-|   |  Bag with content | <ul><li>Increase and Decrease quantity buttons work</li><li>Price updates when Update option is clicked</li><li>Price in Grand total Updates over the 10% Delivery</li><li>Free Delivery treshold is calculated correctly and called back to user |
+| Logo (upper left corner)  |  Hover over |  <ul><li>The address on hover is showing as home page</li></ul> |
+| Search bar  |  Entered "Space", |<ul><li> one product is listed under this name - correct</li><li>The summary shows message "1 Products found for 'space'" (See if this can be amended to dependable if it's one or many, with or without s"</li></ul>|
+|  All button, bringing back to all products |  Click on All button |  <ul><li>Linked correctly</li></ul>  |
+| Everything  |  Click on By Price |  <ul><li>Items appear sorted ascending, from low price to high</li></ul> |
+|   |  Click on By Rating |  <ul><li>Items appear sorted descending, from high rating to low</li></ul> |
+|   |  Click on By Category |  <ul><li>Categories of Items become sorted alphabetically</li></ul> |
+|   |  Click on Everything |  <ul><li>All items are displayed, sorted by SKU</li></ul> |
+| Pins  |  Click on Animals |  <ul><li>Pins from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul> |
+|   |  Click on Things |  <ul><li>Pins from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul>|
+|   |  Click on People |  <ul><li>Pins from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul>|
+|   |  Click on Plants |  <ul><li>Pins from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul> |
+|   |  Click on All Pins | <ul><li>All Pins are displaying now</li></ul> |
+| Randoms  |  Click on Keychains |  <ul><li>Keychains are displayed, the badge on top of the page states same.</li></ul> |
+|   |  Click on Stickers |  <ul><li>Stickers are displayed, along with badge</li></ul> |
+|   |  Click on Stationery |  <ul><li>Stationery and badge are here</li></ul> |
+| Special Offers  |  Click on New Arrivals |  <ul><li>New Arrivals and badge are here</li></ul> |
+|   |  Click on Sale |  <ul><li>Pins from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul> |
+| My Account  |  Click on Register |  <ul><li>Sign up form appears</li><li>Form sends</li><li>Confirmation email appears in the email box</li><li>Clicked on the confirmation email - Confirm email address page appears</li><li>Logged in with newly created account - the success message appears and I am now logged in</li><li>Upon clicking Confirm, a success message appears and a signing page is returned</li></ul> |
+|   |  Click on Login |  <ul><li>The address on hover is showing as home page</li></ul> |
+| Basket  |  Bag empty |  <ul><li>Click on Keep Shopping button, brings me back to all Products page</li></ul> |
+|   |  Bag with content | <ul><li>Increase and Decrease quantity buttons work</li><li>Price updates when Update option is clicked</li><li>Price in Grand total Updates over the 10% Delivery</li><li>Free Delivery treshold is calculated correctly and called back to user</li></ul> |
 | Footer  |    |   |
 | | Home page | |
-| Shop Now button  |  Clicked on |  Brings me to a page with all products |
+| Shop Now button  |  Clicked on |  <ul><li>Brings me to a page with all products</li></ul> |
 | | All Products page | |
 | Sort Products Dropdown  |  Sort testing each Condition |  <ul><li>Price (low to high) - sorts according to price, from cheapest to dearest</li><li> Price (high to low) - sorts according to price, from dearest to cheapest</li><li>Rating (low to high) - sorts rating from lowest</li><li>Rating (high to low) - sorts rating from highest.</li><li>Name (A-Z) - sorts Products alphabetically</li><li>Name (Z-A) - sorts products reverse-alphabetically</li><li>Category (A-Z) - sorts Categories of products alphabetically</li><li>Category (Z-A) - sorts Products by Categories sorted reverse-alphabetically</li></ul> |
 | Superuser - editing the product details  |  Click on the Edit option underneath one of the products |  <ul><li>A Product Management Edit a Product form is rendered and a warning message is triggered in upper right corner</li><li>Changed Category and Name,saved</li><li>Name and Category successfully changed, confirmed with a success toast rendered in upper right corner </li></ul> |
-|   |  Click on the Delete option |  Product is immediately deleted and a success toast confirming deletion is rendered in the upper right corner of the page |
+|   |  Click on the Delete option |  <ul><li>Product is immediately deleted and a success toast confirming deletion is rendered in the upper right corner of the page |
 | Adding product to the basket  |  Click on the Product and click Add to Basket |  <ul><li>Basket total updates to the correct amount, success toast confirms the product was added to the bag </li></ul> |
-| Navigating from Product Detail back to All Products  |  Click on the Keep Shopping button |  A page with all product is rendered |
+| Navigating from Product Detail back to All Products  |  Click on the Keep Shopping button |  <ul><li>A page with all product is rendered</li></ul> |
 | Checking out  |  Click on the Shopping Bag, click on Secure Checkout |  <ul><li>Non registered user - a sign in page renders with option to register, if user is not yet registered</li><li>Registered User - A Checkout page is rendered with most information saved as per users account. User can also see the Order Summary to the right of the form</li><li>Entered card details and name, after which clicked on the Complete Transaction button</li><li>A thank you page is rendered, with a summary of order as well as the success toast renders in upper right corner</li><li>Confirmation email arrives to the email box</li></ul> |
 
 ### For testing the Stripe checkout use the following:
