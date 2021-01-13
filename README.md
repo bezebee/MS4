@@ -29,7 +29,7 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
     * [Color Scheme](#color-scheme)
     * [Wireframes](#wireframes)
     * [Registration and User Accounts](#registration-and-users-accounts)
-* [Database Structure](#)
+
 * [Features](#)
 * [Technology](#)
 * [Testing](#)
@@ -114,7 +114,7 @@ Throughout the project there is only one font used, which is Montserrat at vario
 
 The use of neumorphic design througout the page influenced a decision of one main color being used. The color used throughout the page is pale and light, almost white, as this ensures best effectivens of the design style.
 
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609881480/ms4%20images/Screenshot_2021-01-05_at_21.17.21_nua89x.png" alt="Database Structure"></p>
+<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609881480/ms4%20images/Screenshot_2021-01-05_at_21.17.21_nua89x.png" alt="Color Scheme"></p>
 
 ### Wireframes
 
@@ -141,7 +141,7 @@ The use of neumorphic design througout the page influenced a decision of one mai
 
 <br><br>
 
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/database_structure_k2dbcm.png" width="auto" height="70" alt="Database Structure"></p>
+
 <br><br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/features_bm7mnk.png" width="auto" height="70" alt="Features"></p>
 
@@ -248,13 +248,12 @@ This option is available to both logged in and not logged in users. The differen
 
 |  Feature |  Action | Effect |
 |---|---|---|
-| Registration  |   |   |
-| Login  |   |   |
-| Logout  |   |   |
-| Change Password  |   |   |
-| View profile  |  Click on My Account and My Profile |  |
-| Update profile  |  Click on My Account and My Profile |   |
-| Logo (upper left corner)  |   |   |
+| Registration  | Click on My Account and My Profile  |  <ul><li>Click on MyAccount and Register</li><li>A Sign Up form is rendered, fill in the blanks</li><li>User Exists - an error is rendered above the user name "User is already registered with this email address"</li><li>Register unregistered email address, press send</li><li>A confirmation email is sent to the provided email address</li></ul> |
+| Login  |  Click on My Account and My Profile | <ul><li>Click on MyAccount and Login</li><li>A Sign In form renders</li><li>Wrong Password entered, an error is generated "The username and/or password you specified are not correct"</li><li>Log in with the correct password</li><li>Home page is rendered</li></ul>  |
+| Logout  | Click on My Account and My Profile  | <ul><li>Click on MyAccount and Logout</li><li>A page renders confirming "Are you sure you want to sign out"</li><li>Click Sign Out</li><li>A success toast is rendered in upper right corner of the screen</li><li></li></ul>  |
+| Change Password  |  Click on My Account and My Profile |  <ul><li>Click on MyAccount and Login</li><li>Click Forgot Password</li><li>Enter email you are registered under</li><li>A page renders confirmation "We have sent you an email. Please contact us if you do not receive it within a few minutes"</li><li>When clicked, it returns a change password form</li></ul> |
+| View profile  |  Click on My Account and My Profile | <ul><li>Log in and click on MyAccount and My Profile</li><li>My Profile page is rendered with Default Delivery Informaton and history of purchasees</li></ul> |
+| Update profile  |  Click on My Account and My Profile |  <ul><li>While in My Profile, fill in the new details and click Update Information</li><li>A success toast is rendered in upper right corner of the screen</li><li>Information is updated</li><li></li><li></li></ul> |
 
 ### User Stories Testing
 
@@ -262,13 +261,8 @@ This option is available to both logged in and not logged in users. The differen
 
 |  Feature |  Action | Effect |
 |---|---|---|
-| Registration  |   |   |
-| Login  |   |   |
-| Logout  |   |   |
-| Change Password  |   |   |
-| View profile  |  Click on My Account and My Profile |  |
-| Update profile  |  Click on My Account and My Profile |   |
-| Logo (upper left corner)  |   |   |
+
+
 
 ### Error pages testing
 
