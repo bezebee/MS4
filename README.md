@@ -35,10 +35,10 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
     + [Error pages testing](#error-pages-testing)
       - [404](#404)
       - [500](#500)
-    + [Requirements](#requirements)
++ [Requirements](#requirements)
     + [Local deployment](#local-deployment)
     + [Deployment on Heroku](#deployment-on-heroku)
-    + [The images of pins are used for Educational Purposes only. Products are available to purchase from these pages:](#the-images-of-pins-are-used-for-educational-purposes-only-products-are-available-to-purchase-from-these-pages-)
+    + [Credits](#the-images-of-pins-are-used-for-educational-purposes-only-products-are-available-to-purchase-from-these-pages-)
     + [The gif animations are used for Educational Purposes only.](#the-gif-animations-are-used-for-educational-purposes-only)
 
 
