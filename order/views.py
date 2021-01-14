@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
 
 from .forms import OrderForm
 
@@ -7,6 +8,7 @@ from .forms import OrderForm
 # upon submitting
 
 
+@login_required
 def order(request):
     template = "order/order.html"
 

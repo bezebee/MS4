@@ -9,8 +9,9 @@ You're receiving this e-mail because user {{ user_display }} has given your e-ma
 
 To confirm this is correct, go to {{ activate_url }}.
 
-<h1>PLEASE, NOTE. THIS WEBSITE IS FOR EDUCATIONAL PURPOSES ONLY. 
-DO NOT, UNDER ANY CIRCUMSTANCES ENTER A REAL CREDIT CARD NUMBER AS YOU MAY BE CHARGED.</h1>
+PLEASE, NOTE. THIS WEBSITE IS FOR EDUCATIONAL PURPOSES ONLY. 
+DO NOT, UNDER ANY CIRCUMSTANCES ENTER A REAL CREDIT CARD NUMBER AS YOU MAY BE CHARGED.
+
 
 For testing the Stripe checkout use the following:
 Card number: 4242 4242 4242 4242
