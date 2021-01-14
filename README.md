@@ -29,7 +29,6 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
     + [Color Scheme](#color-scheme)
     + [Wireframes](#wireframes)
 - [Product Features](#product-features)
-- [For testing the Stripe checkout use the following:](#for-testing-the-stripe-checkout-use-the-following-)
 - [Users Features](#users-features)
 - [User Stories Testing](#user-stories-testing)
 - [Error pages testing](#error-pages-testing)
