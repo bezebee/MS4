@@ -43,9 +43,6 @@
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
                 <a href="{% url 'products' %}?category=sale" class="dropdown-item">Sale</a>
-        {% if request.user.is_superuser %}
-                <a href="{% url 'sketches' %}" class="dropdown-item">Your Designs</a>
-        {% endif %}
             </div>
         </li>
     </ul>

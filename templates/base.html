@@ -64,6 +64,7 @@
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
                                     <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                                    <a href="{% url 'sketches' %}" class="dropdown-item">User's Designs</a>
                                 {% endif %}
                                 <a href="{% url 'add_sketch' %}" class="dropdown-item">Design Management</a>
                                 <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
