@@ -81,7 +81,7 @@ This project is an eCommerce shop front to host decorative pins, keychains and c
 - As a registered shopper I want to be able to easily recover my password in case I forget it so I can recover access to my account
 - As a registered shopper I want to be able to receive an email confirmation after registering so I can verify that my account registration was successful
 - As a registered shopper I want to be able to have a personalised user profile so I can view my personal order history and order confirmations and save my payment information
-- As a registered shopper I want to be able to add my own personalised design so I can view all my designs and choose which one I would like to order
+- As a registered shopper I want to be able to submit my personalised design, to be able to order it if I ever wish to
 - As a registered shopper I want to be able to place an order for my personalised design so I can have my design made into pin, keyring or a piece of stationery
 - As a registered shopper I want to be able to easily contact the store owner with any queries I might have so I can ask any questions I may have
 
