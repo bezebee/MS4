@@ -33,8 +33,8 @@
 				{% for sketch in sketches %}
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
 					<div class="card h-100 border-0 bg-transparent">
-						{% if sketch.image %}
-						<a href="{% url 'sketch_detail' sketch.id %}">
+                        {% if sketch.image %}
+                            <a href="{% url 'sketch_detail' sketch.id %}">
 							<img class="card-img-top img-fluid bg-transparent product-img" src="{{ sketch.image.url }}" alt="{{ sketch.name }}">
                         </a>
 							{% else %}

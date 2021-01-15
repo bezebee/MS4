@@ -1,5 +1,5 @@
 from django import forms
-
+from .widgets import CustomClearableFileInput
 from .models import Order
 
 
@@ -11,6 +11,7 @@ class OrderForm(forms.ModelForm):
     sketch_sku = forms.CharField(label="", widget=forms.TextInput(attrs={'placeholder': 'Sketch SKU'}))
     description = forms.CharField(label="", widget=forms.Textarea(attrs={'placeholder': 'Description'}))
     special_requests = forms.CharField(label="", widget=forms.Textarea(attrs={'placeholder': 'Special Requests'}))
+    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
 
 # added 'form-control' for responsiveness
 
@@ -22,3 +23,6 @@ class OrderForm(forms.ModelForm):
     class Meta:
         model = Order
         fields = ('first_name', 'last_name', 'email', 'sketch_name', 'sketch_sku', 'description', 'special_requests')
+
+    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
+
