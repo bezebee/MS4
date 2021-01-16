@@ -230,7 +230,7 @@ This option is available to both logged in and not logged in users. The differen
 |   |  Click on Login |  <ul><li>The address on hover is showing as home page</li></ul> |
 | Basket  |  Bag empty |  <ul><li>Click on Keep Shopping button, brings me back to all Products page</li></ul> |
 |   |  Bag with content | <ul><li>Increase and Decrease quantity buttons work</li><li>Price updates when Update option is clicked</li><li>Price in Grand total Updates over the 10% Delivery</li><li>Free Delivery treshold is calculated correctly and called back to user</li></ul> |
-| Footer  |    |   |
+| Footer  |  Test all of the Social Media/Contact links  |  All open in a separate tab and bring the user to the said website |
 | | Home page | |
 | Shop Now button  |  Clicked on |  <ul><li>Brings me to a page with all products</li></ul> |
 | | All Products page | |
@@ -243,11 +243,12 @@ This option is available to both logged in and not logged in users. The differen
 
 ### For testing the Stripe checkout use the following:
 
- - __Card number__: 4242 4242 4242 4242
- - __CVC__: any 3 digits
- - __Card expiry date__: any future date
- - __ZIP/Postcode__: any 5 digits
- 
+```bash
+ Card number: 4242 4242 4242 4242
+ CVC_: any 3 digits
+ Card expiry date: any future date
+ ZIP/Postcode: any 5 digits
+``` 
  
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1610112217/ms4%20images/Mobile_mock_up_puqyce.png" alt="Mobile  mockup"></p>
 
