@@ -293,9 +293,10 @@ This option is available to both logged in and not logged in users. The differen
 
 ### Error pages testing
 
-| 404 | Added a random string of characters to the deployed link. Example: http://ms4nicknacks.herokuapp.com/404                 |
-|-----|--------------------------------------------------------------------------------------------------------------------------|
-| 500 | While working on a local copy, attempted to style the allauth emails. This threw the error 500 template on few occasions |
+| Error | Testing                                                                                                                  |
+|-------|--------------------------------------------------------------------------------------------------------------------------|
+| 404   | Added a random string of characters to the deployed link. Example:   http://ms4nicknacks.herokuapp.com/404               |
+| 500   | While working on a local copy, attempted to style the allauth emails. This threw the error 500 template on few occasions |
 
 ### Error pages templates
 
