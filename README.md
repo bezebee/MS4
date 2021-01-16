@@ -167,7 +167,9 @@ For the regisered and logged in as a superuser, the user will be able to do all 
 - Basket 
 This option is available to both logged in and not logged in users. The difference is, only logged in user will be able to successfully check out with the items, as this option is for the time being only made available to the logged in user.
 <br>
+
 ### Future Features
+
 - Styling of the allauth emails - the future feature, which could not be addressed due to time constrains, is to make the confirmation emails to the user more aesthetically pleasing, styled with the same neumorphic flair
 - Customised Design display and ordering - a future feature would be to streamline the ordering process of the user's design. The user should be able to see all designs they have uploaded. One major flaw that the current method displays is the necessity of the sku number, which the user might not remember after uploading of their design.
 
