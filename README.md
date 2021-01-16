@@ -289,15 +289,15 @@ This option is available to both logged in and not logged in users. The differen
 | As a store owner I want to be able to add a product as this would enable me to add new items to my store                                                                                     | <ul><li>This option is available to the superuser and while logged in</li><li>Choose My Account and Product Management</li><li>This will render a Product upload form</li></ul>                                                                                                                                                                                                                                                             |
 | As a store owner I want to be able to Edit/Update product to apply any changes, be it in price, description, image or other product criteria                                                 | <ul><li>While logged in as a superuser, go to the product in question and click edit button on all products view or on a product detail page</li><li>From then on enter any details you want to change, including images</li><li>Upon submitting, a success toast appears</li></ul>                                                                                                                                                         |
 | As a store owner I want to be able to delete a product remove product if they are no longer for sale                                                                                         | <ul><li>Whle logged in as a superuser, click on Delete option by product that needs to be deleted</li><li>A success toast appears and the product is gone from the system</li></ul>                                                                                                                                                                                                                                                         |
-|                                                                                                                                                                                           
-
-
-
-
-
-
+                    
 
 ### Error pages testing
+
+| 404 | Added a random string of characters to the deployed link. Example: http://ms4nicknacks.herokuapp.com/404                 |
+|-----|--------------------------------------------------------------------------------------------------------------------------|
+| 500 | While working on a local copy, attempted to style the allauth emails. This threw the error 500 template on few occasions |
+
+### Error pages templates
 
 #### 404
 
