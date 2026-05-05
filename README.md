@@ -1,6 +1,6 @@
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1604163817/ms4%20images/unicorn_ozbxlz.png" width="200" height="200" alt="Thank you for visiting my Readme"></p>
 
-[![nicknacks on Heroku](https://img.shields.io/badge/Heroku-nicknacks-pink)](https://ms4nicknacks.herokuapp.com/)
+[![nicknacks on Render](https://img.shields.io/badge/Render-nicknacks-pink)](https://ms4-nicknacks.onrender.com/)
 [![Deployed preview](https://res.cloudinary.com/dugnokxox/image/upload/v1609882886/ms4%20images/nicknacks_eqitvq.png)](https://ms4nicknacks.herokuapp.com/)
 
 
@@ -322,12 +322,13 @@ This option is available to both logged in and not logged in users. The differen
 
 ### Requirements
 
- - an IDE such as GitPod or Visual Studio Code - I used GitPod
+ - an IDE such as Visual Studio Code
  - [PIP](https://pip.pypa.io/en/stable/installing/) to install packages in Python
- - [python 3](https://www.python.org/downloads/) programming language used on the back-end
+ - [python 3.11](https://www.python.org/downloads/) programming language used on the back-end
  - [git](https://git-scm.com/) version control system for code source
  - [stripe](https://stripe.com/) create an account for online payments
- - [AWS](https://aws.amazon.com/) cloud storage service for online backup of website assets. (Create an S3 bucket)
+ - [Supabase](https://supabase.com/) create a free account for PostgreSQL database hosting
+ - [Render](https://render.com/) create a free account for application hosting
 
 
 ### Local deployment
@@ -352,7 +353,7 @@ button at the top of the page and extracting the zip file, or you clone the repo
     'STRIPE_WH_SECRET', '<your value>'
     ```
 1. Replace <your value> with the values from your own accounts
-    - The SECRET KEY: you can get from a free Django Secret Key Generator
+    - The SECRET KEY: generate with `python3 -c "import secrets; print(secrets.token_urlsafe(50))"`
     - STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY: from Developer's API on the Stripe dashboard
     - STRIPE_WH_SECRET: from Stripe's developer API after creating a webhook
      
@@ -373,47 +374,53 @@ button at the top of the page and extracting the zip file, or you clone the repo
     ```
 
 
-### Deployment on Heroku
+### Deployment on Render with Supabase
 
-1. Go to https://heroku.com/ and create a new app with a unique name
-1. Provision the Postgres database: Go to the Resources tab and install the addon "Heroku Postgres". Heroku automatically adds
-the 'DATABASE_URL' to the Config Vars.
-1. Go to the Settings tab, click Reveal Config Vars and copy the DATABASE_URL value into your local memory.
-1. In your App on Heroku, go to the Settings tab, and click on 'Reveal Config Vars', set these variables:
-    
+1. Go to [supabase.com](https://supabase.com/) and create a new project
+1. Once the database is provisioned, click the green **Connect** button at the top of the dashboard
+1. Find the **Connection pooling** section and copy the **URI** format connection string — it uses port **6543**. It will look like:
+    ```
+    postgresql://postgres.yourref:yourpassword@aws-0-eu-west-1.pooler.supabase.com:6543/postgres
+    ```
+    Important: use the pooler URL on port **6543**, not the direct connection on port 5432
+1. Go to [render.com](https://render.com/) and create a new **Web Service**
+1. Connect your GitHub account and select the MS4 repository
+1. Configure the service with these settings:
+
+    | Setting | Value |
+    |---|---|
+    | Runtime | Python |
+    | Build Command | `pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate` |
+    | Start Command | `gunicorn MS4.wsgi:application` |
+
+1. Add the following environment variables in Render's **Environment** tab:
+
     ```bash
-    'AWS_ACCESS_KEY_ID', '<your value>'
-    'AWS_SECRET_ACCESS_KEY', '<your value>'
-    'DATABASE_URL', '<your value>'
     'SECRET_KEY', '<your value>'
+    'DATABASE_URL', '<your supabase pooler connection string>'
     'STRIPE_PUBLIC_KEY', '<your value>'
     'STRIPE_SECRET_KEY', '<your value>'
     'STRIPE_WH_SECRET', '<your value>'
-    'USE_AWS', 'True'
+    'PYTHON_VERSION', '3.11.0'
+    'DEBUG', 'False'
     ```
 
-1. Migrate the database:
+1. Replace <your value> with the values from your own accounts
+    - The SECRET KEY: generate with `python3 -c "import secrets; print(secrets.token_urlsafe(50))"`
+    - STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY: from Developer's API on the Stripe dashboard
+    - STRIPE_WH_SECRET: from Stripe's developer API after creating a webhook
+    - DATABASE_URL: your Supabase pooler connection string from step 3
+
+1. Click **Create Web Service** — Render will install dependencies, collect static files and run migrations automatically
+
+1. Load initial product data by adding these commands temporarily to the build command:
     ```bash
-    python3 manage.py makemigrations
-    python3 manage.py migrate
+    && python manage.py loaddata products/fixtures/categories.json && python manage.py loaddata products/fixtures/products.json
     ```
-1. Create a superuser for the database, to access Django's admin panel:
-    ```
-    python3 manage.py createsuperuser
-    ```
-1. If any packages have been updated, make a new requirements.txt file: 
-    ```
-    pip freeze > requirements.txt
-    ```
-1. Create a new file named Procfile with no file extension, add web: python app.py to the file and save
-1. push files that were changed to Github:
-    ```bash
-   git add .
-   git commit -m "..."
-   git push
-   ``` 
-1. Go back to the Heroku, open your app and go to the Deploy tab. Choose a Deployment method, I deployed mine through GitHub.
-1. By choosing Github as a deployment method, I had to enter your Github link and choose Automatic Deployments. This will enable every commit to push directly to Heroku.
+    Remove them after the first successful deploy to avoid overwriting any data added through the admin panel
+
+1. The app is now live at your Render URL — for example `https://your-app-name.onrender.com`
+
 
 <br><br><br>
 <p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1609938201/ms4%20images/credits_n1yyeq.png" width="auto" height="70" alt="Credits"></p>
