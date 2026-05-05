@@ -3,7 +3,7 @@ from django.apps import AppConfig
 
 class CheckoutConfig(AppConfig):
     name = 'checkout'
-    label = 'store_checkout'
+    label = 'checkout'
     default_auto_field = 'django.db.models.BigAutoField'
 
     def ready(self):
